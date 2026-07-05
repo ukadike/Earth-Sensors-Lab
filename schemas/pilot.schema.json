@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/pilot.schema.json",
+  "title": "Pilot",
+  "description": "Structural schema for a pilot partnership, matching PILOT_MODEL.md and the templates in /pilots/.",
+  "type": "object",
+  "allOf": [{ "$ref": "lab.schema.json" }],
+  "required": [
+    "partner_type",
+    "funding_source",
+    "consent_obtained",
+    "research_questions",
+    "duration",
+    "status"
+  ],
+  "properties": {
+    "partner_type": {
+      "type": "string",
+      "enum": [
+        "school",
+        "university",
+        "museum",
+        "library",
+        "community_garden",
+        "accessibility_advisor",
+        "curriculum_partner",
+        "hardware_software_collaborator",
+        "funder_sponsor"
+      ]
+    },
+    "funding_source": {
+      "type": "string",
+      "description": "e.g., grant, fellowship, university, foundation, sponsor, public agency, philanthropic partner, or 'unfunded/proposed'."
+    },
+    "consent_obtained": {
+      "type": "object",
+      "properties": {
+        "institutional": { "type": "boolean" },
+        "parent_guardian": { "type": "boolean" },
+        "photo_video": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "research_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "duration": {
+      "type": "object",
+      "properties": {
+        "start_date": { "type": "string", "format": "date" },
+        "end_date": { "type": "string", "format": "date" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "in development", "pilot", "closed"]
+    }
+  }
+}

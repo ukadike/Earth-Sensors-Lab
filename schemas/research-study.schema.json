@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/research-study.schema.json",
+  "title": "Research Study / Finding",
+  "description": "Structural schema for a research study protocol or recorded finding, matching /research/study-protocols.md and /research/findings-template.md.",
+  "type": "object",
+  "required": [
+    "research_questions",
+    "site_partner_type",
+    "method",
+    "data_handling",
+    "evidence_status"
+  ],
+  "properties": {
+    "research_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "site_partner_type": {
+      "type": "string",
+      "enum": ["school", "university", "museum", "library", "community_garden"]
+    },
+    "method": { "type": "string" },
+    "data_handling": {
+      "type": "object",
+      "properties": {
+        "minimization_applied": { "type": "boolean" },
+        "anonymized": { "type": "boolean" },
+        "irb_approval": { "type": ["boolean", "null"] }
+      }
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": ["OPEN QUESTION", "EMERGING", "PROBABLE"],
+      "description": "Matches the status vocabulary in research/research-questions.md — never asserted as PROBABLE from a single pilot."
+    }
+  }
+}

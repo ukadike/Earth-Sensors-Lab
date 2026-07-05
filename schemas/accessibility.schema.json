@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/accessibility.schema.json",
+  "title": "Accessibility Requirement",
+  "description": "Structural schema for tracking an accessibility requirement or accommodation against the baseline in ACCESSIBILITY.md.",
+  "type": "object",
+  "required": [
+    "requirement",
+    "category",
+    "applies_to",
+    "verification_status"
+  ],
+  "properties": {
+    "requirement": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": [
+        "wcag",
+        "keyboard_navigation",
+        "blind_low_vision",
+        "tactile",
+        "sonification",
+        "captions_transcripts",
+        "plain_language",
+        "multilingual",
+        "offline_first"
+      ]
+    },
+    "applies_to": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "File paths or prototype names this requirement applies to."
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["intended", "self-reviewed", "advisor-reviewed", "audited", "AWAITING FRAGMENT"],
+      "description": "Distinguishes an asserted design intent from an actually verified outcome — see the 'verify, don't assert' principle in accessibility-principles.md."
+    }
+  }
+}

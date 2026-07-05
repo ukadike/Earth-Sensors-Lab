@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/curriculum.schema.json",
+  "title": "Curriculum Module",
+  "description": "Structural schema for a curriculum module, matching the fields required in CURRICULUM.md and used by files in /curriculum/.",
+  "type": "object",
+  "allOf": [{ "$ref": "lab.schema.json" }],
+  "required": [
+    "learning_goals",
+    "materials",
+    "accessibility_notes",
+    "activity",
+    "reflection_questions",
+    "research_notes",
+    "teacher_adaptation_notes",
+    "status"
+  ],
+  "properties": {
+    "learning_goals": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "materials": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "accessibility_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "activity": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ordered steps."
+    },
+    "reflection_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "research_notes": {
+      "type": "string"
+    },
+    "teacher_adaptation_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "in development", "pilot-tested", "retired"]
+    }
+  }
+}

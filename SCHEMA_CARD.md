@@ -6,95 +6,123 @@ Earth Sensors Lab (ESL)
 
 ## Purpose
 
-A Small Systems Lab branch for hands-on environmental sensing, garden-based
-science, astronomy, accessibility, and storytelling. It helps students and
-communities observe soil, weather, light, sound, plant life, and sky events
-through low-cost tools, tactile learning, data sonification, and
-public-interest science education. (Source: README.md, index.html.)
+An open research laboratory, under Small Systems Lab, studying how
+environmental sensing, creative technology, accessibility, AI, community
+science, and multisensory learning can expand participation in STEAM
+education. ESL builds prototypes, documents methods, publishes research
+questions, develops curriculum, evaluates accessibility, and prepares pilots
+with schools, universities, museums, libraries, and community partners.
+(Source: README.md, MISSION.md.)
 
 ## Audience
 
-Students and communities, per README.md/index.html. The Small Systems Lab
-hub description of this branch specifies "young people, families, educators,
-gardens, climate sensing, and interstellar curiosity" (source:
-`ukadike/Small-Systems-Lab` index.html "Branches" section — noted here for
-cross-repo context, not restated as ESL's own claim beyond what its own
-files say).
+Students, teachers, and communities directly; also university researchers,
+accessibility specialists, museum and library educators, community science
+organizers, funders, and open-source contributors. (Source: README.md, "Who
+It Serves.")
 
-## Core concepts (from README.md / SSL-METHOD.md / index.html)
+## Research question
 
-- **SSL Method inside ESL** — the Small Systems Lab method applied to
-  environmental sensing:
-  - *Operations of Care* — what is sensed, who owns the data, what's shared
-    publicly vs. kept local, how students learn to trust a sensor, how the
-    project works without reliable internet or expensive equipment.
-  - *Rule-Based Intelligence* — sensor anomaly flags, plain-language
-    explanations, classroom observation logs, accessibility summaries, data
-    quality warnings, "do not overclaim" science checks.
-  - *Ancient Geometry in ESL* — Circle (day/night, seasons, water, plant
-    growth cycles), Triangle (sensor, environment, human observer), Grid
-    (garden plots, data tables, maps), Spiral (repeated observation and
-    learning over time), Golden ratio (natural growth patterns, visual
-    balance).
-- **Starter Modules** (six, all "in development," no content built yet):
-  1. Soil moisture and plant care.
-  2. Light, heat, and microclimate.
-  3. Sound and biodiversity listening.
-  4. Weather diary and sky observation.
-  5. Astronomy and interstellar object literacy.
-  6. Data storytelling and public science.
-- **Accessibility Baseline** — tactile diagrams, audio descriptions,
-  captions and transcripts, screen-reader-ready pages, high contrast
-  charts, low-cost hardware assumptions, offline classroom worksheets.
+Not a single question — see [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for the
+seven guiding questions this repository as a whole investigates.
+
+## Accessibility requirements
+
+WCAG 2.2 AA minimum, keyboard-only navigation, screen reader compatibility,
+alt text, captions, transcripts, tactile diagrams, sonified data, printable
+low-ink materials, plain-language summaries, multilingual readiness,
+offline-first field use. (Source: ACCESSIBILITY.md.)
+
+## Inputs
+
+Site partnerships (schools, universities, museums, libraries, community
+gardens), volunteer/contributor time, grant and sponsor funding, prior
+research and accessibility literature (see
+[/research/literature-map.md](research/literature-map.md)).
+
+## Outputs
+
+Public documentation (this repository), curriculum modules, prototype
+hardware/software documentation, JSON schemas, pilot case notes, and — when
+pilots occur — findings recorded per
+[/research/findings-template.md](research/findings-template.md).
+
+## Materials
+
+Low-cost sensor hardware (prototype stage — see
+[/hardware/](hardware/)), documentation-only software concepts (see
+[/software/](software/)), printable curriculum and accessibility materials.
+
+## Data collected
+
+None yet at the organization level; any data collected in a future pilot is
+scoped, minimized, and consented per [ETHICS_AND_CONSENT.md](ETHICS_AND_CONSENT.md).
+This repository itself collects no user data — it is static documentation and
+a GitHub Pages site.
+
+## Consent needs
+
+Full consent framework in [ETHICS_AND_CONSENT.md](ETHICS_AND_CONSENT.md):
+school consent, parent/guardian consent, photo/video consent, community
+ownership of site-level data.
+
+## Risks
+
+Risk of being mistaken for a paid enrichment vendor rather than a research
+partner (see [/pilots/pentaville-case-note.md](pilots/pentaville-case-note.md));
+risk of overclaiming prototype readiness before pilots occur; risk of
+accessibility features being treated as add-ons rather than core design
+constraints. Mitigations are the explicit status labels (`proposed`, `in
+development`, `prototype`, `pilot`) used throughout this repository.
+
+## Next steps
+
+See [ROADMAP.md](ROADMAP.md) for the five-phase plan from repository
+foundation through open toolkit release.
 
 ## Interfaces
 
-- Static GitHub Pages site (`index.html` + `site.css` + `variables.css`),
-  no JavaScript, no build step, no backend.
-- `SSL-METHOD.md` readable directly as raw Markdown on GitHub, linked from
-  the homepage.
-- GitHub Issues as the sole contribution/feedback channel (no email intake).
-
-## Inputs / outputs
-
-No functioning sensors, data pipelines, or hardware integrations exist in
-this repository yet — it is documentation and a homepage only. AWAITING
-FRAGMENT for any actual sensor hardware, firmware, or data-collection code;
-none is present to describe.
+- Static GitHub Pages site (`index.html` + `site.css` + `variables.css`), no
+  JavaScript, no build step, no backend.
+- Full documentation tree readable directly as Markdown on GitHub.
+- GitHub Issues as the contribution/feedback channel.
 
 ## Dependencies
 
-None. Static HTML/CSS, no package manager, no external libraries or
-frameworks referenced anywhere in the repo.
+None for the documentation site. Static HTML/CSS, no package manager. Future
+software prototypes (see [/software/](software/)) will record their own
+dependencies in their own documentation as they are built.
 
 ## Related repos
 
 - **Small Systems Lab** (`ukadike/Small-Systems-Lab`) — parent hub; ESL is
   one of its listed branches.
 - **Accessible by Design** (`ukadike/accessible-by-design-prototyping`) —
-  accessibility research, audits, and tooling; now linked from ESL's
-  Accessibility Baseline section for inclusive STEAM (added this pass).
+  accessibility research, audits, and tooling, linked from
+  [ACCESSIBILITY.md](ACCESSIBILITY.md).
 - Sibling branches sharing the same locked visual system: Echo, Omoluabi,
-  Umada (per the SSL hub's "Branches" section; ESL's own files do not
-  reference these directly, this is cross-repo context only).
+  Umada.
 
-## Accessibility considerations
+## Accessibility considerations (site itself)
 
 - Skip-to-content link, landmark regions, `aria-labelledby` sections,
   sequential heading order, visible focus outlines — all present in
   `index.html` via the locked `variables.css` token system.
-- No images currently in the repo, so no alt-text debt yet; future modules
-  that add diagrams or photos will need alt text and, per the Accessibility
-  Baseline, tactile/audio equivalents.
-- External links do not use `target="_blank"`, matching the convention used
-  across sibling SSL repos.
+- External links do not use `target="_blank"`, matching convention across
+  sibling SSL repos.
+
+## Schema card rule
+
+Every Earth Sensors Lab component — prototype, curriculum module, pilot
+type, research study — must include: name, purpose, audience, research
+question, accessibility requirements, inputs, outputs, materials, data
+collected, consent needs, risks, and next steps. Machine-readable versions of
+this structure live in [/schemas/](schemas/).
 
 ## Future implementation notes
 
-- The six starter modules have no content yet — OPEN QUESTION on scope,
-  format (per-module page? shared page?), and whether they'll include real
-  sensor code/hardware guides.
-- No LICENSE or CONTRIBUTING file yet — **Needs Kemi review**.
-- Any future sensor/hardware/data content should preserve the "do not
-  overclaim" science-check principle already stated in SSL-METHOD.md and
-  README.md.
+- No LICENSE terms existed anywhere in this repository prior to this pass;
+  see [LICENSE.md](LICENSE.md) for the newly adopted terms (CC BY 4.0 for
+  written content; source code license marked TBD pending real code).
+- The prototype areas in [PROTOTYPES.md](PROTOTYPES.md) each need their own
+  full schema card as they mature past `proposed` — tracked, not yet done.

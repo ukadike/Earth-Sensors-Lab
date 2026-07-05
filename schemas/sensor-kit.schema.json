@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/sensor-kit.schema.json",
+  "title": "Sensor Kit Component",
+  "description": "Structural schema for a prototype hardware component of the Environmental Sensor Kit, matching /hardware/ documentation.",
+  "type": "object",
+  "allOf": [{ "$ref": "lab.schema.json" }],
+  "required": [
+    "component_type",
+    "microcontroller_options",
+    "power_options",
+    "safety_notes",
+    "maintenance_notes",
+    "status"
+  ],
+  "properties": {
+    "component_type": {
+      "type": "string",
+      "enum": [
+        "microcontroller",
+        "soil_moisture_sensor",
+        "temperature_humidity_sensor",
+        "light_sensor",
+        "audio_sensor",
+        "power_supply",
+        "enclosure"
+      ]
+    },
+    "microcontroller_options": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["arduino", "raspberry_pi", "none"] }
+    },
+    "power_options": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["battery", "solar", "mains_prohibited"] }
+    },
+    "safety_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "maintenance_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["concept", "prototype", "tested", "retired"]
+    }
+  }
+}

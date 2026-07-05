@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ukadike/Earth-Sensors-Lab/schemas/lab.schema.json",
+  "title": "Earth Sensors Lab — Schema Card",
+  "description": "Structural schema for the top-level schema-card fields required of every major Earth Sensors Lab component. See SCHEMA_CARD.md.",
+  "type": "object",
+  "required": [
+    "name",
+    "purpose",
+    "audience",
+    "research_question",
+    "accessibility_requirements",
+    "inputs",
+    "outputs",
+    "materials",
+    "data_collected",
+    "consent_needs",
+    "risks",
+    "next_steps",
+    "status"
+  ],
+  "properties": {
+    "name": { "type": "string" },
+    "purpose": { "type": "string" },
+    "audience": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "research_question": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One or more research questions this component investigates, matching entries in research/research-questions.md."
+    },
+    "accessibility_requirements": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inputs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "outputs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "materials": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "data_collected": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Empty array if no data is collected."
+    },
+    "consent_needs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "risks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "next_steps": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "in development", "prototype", "pilot", "retired", "AWAITING FRAGMENT"]
+    }
+  },
+  "additionalProperties": false
+}
