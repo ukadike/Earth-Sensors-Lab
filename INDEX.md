@@ -13,7 +13,8 @@ versus planned.
 - [README.md](README.md) — project overview and repository map
 - [MISSION.md](MISSION.md) — why this lab exists, what "research" means here
 - [CLAUDE.md](CLAUDE.md) — instructions for AI-assisted contributions
-- [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) — guiding research questions
+- [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) — research thesis, seven pillars,
+  and guiding research questions
 - [PARTNERSHIP_MODEL.md](PARTNERSHIP_MODEL.md) — partner types, how
   partnerships start
 - [ACCESSIBILITY.md](ACCESSIBILITY.md) — accessibility baseline
@@ -34,6 +35,8 @@ versus planned.
 ## /research/
 
 - [research-questions.md](research/research-questions.md)
+- [what-counts-as-data.md](research/what-counts-as-data.md)
+- [knowledge-contributions.md](research/knowledge-contributions.md)
 - [literature-map.md](research/literature-map.md)
 - [study-protocols.md](research/study-protocols.md)
 - [pilot-evaluation.md](research/pilot-evaluation.md)
@@ -50,10 +53,12 @@ versus planned.
 - [module-06-community-observatory.md](curriculum/module-06-community-observatory.md)
 - [teacher-guide.md](curriculum/teacher-guide.md)
 - [student-workbook.md](curriculum/student-workbook.md)
+- [field-notebook-model.md](curriculum/field-notebook-model.md)
 
 ## /accessibility/
 
 - [accessibility-principles.md](accessibility/accessibility-principles.md)
+- [sensory-stack.md](accessibility/sensory-stack.md)
 - [blind-low-vision-mode.md](accessibility/blind-low-vision-mode.md)
 - [keyboard-navigation.md](accessibility/keyboard-navigation.md)
 - [tactile-learning.md](accessibility/tactile-learning.md)
@@ -78,7 +83,9 @@ versus planned.
 - [data-schema.md](software/data-schema.md)
 - [prototype-dashboard.md](software/prototype-dashboard.md)
 - [p5-visualizations.md](software/p5-visualizations.md)
+- [reasoning-layers.md](software/reasoning-layers.md)
 - [ai-reflection-assistant.md](software/ai-reflection-assistant.md)
+- [ai-boundaries.md](software/ai-boundaries.md)
 - [offline-field-companion.md](software/offline-field-companion.md)
 
 ## /pilots/
@@ -86,6 +93,7 @@ versus planned.
 - [pentaville-case-note.md](pilots/pentaville-case-note.md)
 - [nyu-partnership-note.md](pilots/nyu-partnership-note.md) — `AWAITING
   FRAGMENT`, no confirmed partnership yet
+- [pilot-as-research-site.md](pilots/pilot-as-research-site.md)
 - [school-pilot-template.md](pilots/school-pilot-template.md)
 - [museum-library-pilot-template.md](pilots/museum-library-pilot-template.md)
 - [community-garden-pilot-template.md](pilots/community-garden-pilot-template.md)
@@ -106,6 +114,8 @@ versus planned.
 - [faq.md](docs/faq.md)
 - [grant-language.md](docs/grant-language.md)
 - [one-page-summary.md](docs/one-page-summary.md)
+- [why-github.md](docs/why-github.md)
+- [repository-review-checklist.md](docs/repository-review-checklist.md)
 - [REPO_AUDIT.md](docs/REPO_AUDIT.md)
 
 ## Style system (locked — do not redesign)

@@ -15,6 +15,24 @@ This distinction exists because of a real implementation lesson. See
 [/pilots/pentaville-case-note.md](pilots/pentaville-case-note.md) for what
 that conversation taught us about how this model needs to be explained.
 
+## Schools as research partners, not customers
+
+Earth Sensors Lab does not approach schools as customers first. It
+approaches schools as possible research, learning, and community partners.
+
+A school may host a pilot, but the purpose of the pilot is not simply
+program delivery. The purpose is to learn what works, what fails, what
+students understand, what teachers need, what accessibility barriers
+appear, and how the model should change before wider implementation. See
+[/pilots/pilot-as-research-site.md](pilots/pilot-as-research-site.md) for
+what that means in practice.
+
+This is a real difference in what a school should expect: a vendor
+relationship ends when the deliverable is handed over; a research
+partnership ends when both sides have learned something, and what was
+learned — including what didn't work — is documented and shared back with
+the partner.
+
 ## Partner types
 
 | Partner type | What they contribute | What they get |

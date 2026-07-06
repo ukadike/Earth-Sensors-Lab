@@ -6,6 +6,18 @@ We investigate how environmental sensing, creative technology, accessibility, AI
 community science, and multisensory learning can expand who gets to participate
 in STEAM — not just who gets to watch it happen.
 
+Earth Sensors Lab is a public-interest research lab studying the
+relationship between environmental sensing, accessibility, and STEAM
+education. It asks how students, teachers, disabled learners, and
+communities can participate in scientific observation when sensors, data,
+AI, gardens, sound, touch, and local knowledge are treated as parts of one
+learning system.
+
+This is not just about teaching STEM. It is about redesigning who gets to
+observe, measure, interpret, and explain the world. See
+[RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for the full research thesis and
+the seven pillars this mission is organized around.
+
 ## Why a laboratory, not a program
 
 Earth Sensors Lab is not a school program, an after-school club, or a paid

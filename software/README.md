@@ -13,12 +13,16 @@ guidance in this repository's brief.
 
 - [data-schema.md](data-schema.md) — the shape sensor and curriculum data
   should take, shared across every other software document here
+- [reasoning-layers.md](reasoning-layers.md) — the nine-layer structure any
+  future tool should help learners move through, from observation to action
 - [prototype-dashboard.md](prototype-dashboard.md) — accessible data
   dashboard concept
 - [p5-visualizations.md](p5-visualizations.md) — lightweight browser-based
   charting concept
 - [ai-reflection-assistant.md](ai-reflection-assistant.md) — rule-based/AI
   reflection tool concept
+- [ai-boundaries.md](ai-boundaries.md) — what AI may and must not do across
+  every tool in this folder
 - [offline-field-companion.md](offline-field-companion.md) — offline-first
   field data entry concept
 

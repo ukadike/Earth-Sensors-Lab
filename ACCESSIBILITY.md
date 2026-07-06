@@ -29,6 +29,26 @@ it's meaningful, not just audible? What does a tactile version of a
 temperature trend actually communicate? These are open research questions,
 tracked in [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md), not solved problems.
 
+## Accessibility as a research method
+
+Accessibility is not only compliance. It is a research method.
+
+When Earth Sensors Lab designs for blind, low-vision, disabled,
+multilingual, neurodivergent, and under-resourced learners, it reveals
+assumptions hidden inside conventional STEM education: that data is
+inherently visual, that a chart is self-explanatory, that a lab requires a
+purchased kit, that "participation" means sitting and watching.
+
+If a chart cannot be heard, touched, described, translated, or discussed,
+then the learning system is incomplete — not just non-compliant. Designing
+for the widest range of learners is how this lab tests whether its own
+research pillars (see [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md), "Accessible
+Observation" and "Multisensory Data") actually hold up, rather than a
+downstream compliance step applied after the design is finished.
+
+See [/accessibility/sensory-stack.md](accessibility/sensory-stack.md) for
+the concrete framework this principle produces.
+
 ## Structure
 
 Detailed guides live in [/accessibility/](accessibility/):
@@ -43,6 +63,8 @@ Detailed guides live in [/accessibility/](accessibility/):
 - [captions-transcripts.md](accessibility/captions-transcripts.md)
 - [wcag-checklist.md](accessibility/wcag-checklist.md) — the concrete,
   auditable checklist this baseline maps to
+- [sensory-stack.md](accessibility/sensory-stack.md) — the five sensory
+  layers every prototype should consider
 
 ## Relationship to Accessible by Design
 

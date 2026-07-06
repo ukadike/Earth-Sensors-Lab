@@ -10,6 +10,36 @@ evidence. See [CURRICULUM.md](CURRICULUM.md) status labels and
 [/curriculum/overview.md](curriculum/overview.md) for the current state of
 each module.
 
+## Curriculum philosophy: observation before devices
+
+The curriculum should begin with observation, not devices.
+
+Students should first learn to notice:
+
+- soil texture
+- plant growth
+- heat
+- shade
+- moisture
+- insects
+- sound
+- weather
+- human activity
+- change over time
+
+Sensors are introduced as extensions of observation, not replacements for
+human attention. This is why [Module 1](curriculum/module-01-observation.md)
+deliberately contains no sensor or electronic tool, and why
+[Module 2](curriculum/module-02-sensors.md) frames a sensor explicitly as a
+translation of something a person can also, in principle, notice directly.
+A curriculum that started with the device would teach students to trust the
+number before they've learned to trust — and question — their own senses.
+
+The [field notebook model](curriculum/field-notebook-model.md) is the tool
+that carries this philosophy through every module: it records what a
+student noticed before, alongside, and sometimes instead of what a sensor
+recorded.
+
 ## Modules
 
 1. **Observation Before Measurement** —
@@ -51,6 +81,9 @@ each module.
   educators, including how to adapt for mixed-ability classrooms
 - [student-workbook.md](curriculum/student-workbook.md) — printable,
   low-ink, plain-language student-facing companion
+- [field-notebook-model.md](curriculum/field-notebook-model.md) — the
+  underlying recording model the workbook implements, and the throughline
+  for "observation before devices" across every module
 
 ## How curriculum connects to research
 

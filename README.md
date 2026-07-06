@@ -1,11 +1,14 @@
 # Earth Sensors Lab
 
-Earth Sensors Lab is an open research laboratory for accessible STEAM
-education.
+Earth Sensors Lab is an accessible STEAM research initiative developing
+low-cost environmental sensing systems, multisensory data tools, and
+community-based science methods.
 
-We design and study low-cost environmental sensing systems, multisensory data
-interfaces, and creative learning tools that help students observe the world
-through touch, sound, sight, language, and computation.
+We study how learners observe the environment when scientific data can be
+seen, heard, touched, spoken, questioned, and connected to place.
+
+Our work sits at the intersection of accessibility, environmental literacy,
+creative technology, public-interest AI, and community science.
 
 Earth Sensors Lab is a research initiative under [Small Systems
 Lab](https://ukadike.github.io/Small-Systems-Lab/), part of a small family of
@@ -43,8 +46,15 @@ Earth Sensors Lab studies:
 - inclusive curriculum design
 - teacher professional development
 
-See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for the guiding research
-questions.
+This work is organized around seven research pillars — Accessible
+Observation, Multisensory Data, Community-Based Science, Low-Cost
+Instrumentation, AI as Reflection Support, Teacher-Led Adaptation, and
+Climate and Ecological Literacy — and a central research thesis: that
+science learning can begin with direct observation, community knowledge,
+environmental care, accessible tools, and multisensory interpretation,
+rather than assuming visual charts and expensive instruments as the
+default entry point. See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for the
+full thesis, pillars, and guiding research questions.
 
 ## Who It Serves
 
@@ -107,14 +117,21 @@ ROADMAP.md                  — five-phase roadmap
 CONTRIBUTING.md             — how to contribute
 LICENSE.md                  — licensing terms
 
-/research/                 — research questions, literature map, study protocols
-/curriculum/               — eight curriculum modules, teacher guide, student workbook
-/accessibility/            — accessibility principles and implementation guides
+/research/                 — research questions, thesis, pillars, literature map,
+                             study protocols, what counts as data, knowledge
+                             contributions
+/curriculum/               — eight curriculum modules, teacher guide, student
+                             workbook, field notebook model
+/accessibility/            — accessibility principles, sensory stack, and
+                             implementation guides
 /hardware/                 — prototype sensor kit documentation
-/software/                 — dashboard, visualization, and AI concept documentation
-/pilots/                   — pilot case notes and partner templates
+/software/                 — dashboard, visualization, reasoning layers, AI
+                             boundaries, and concept documentation
+/pilots/                   — pilot case notes, pilot-as-research-site framing,
+                             and partner templates
 /schemas/                  — JSON schemas for every major repo component
-/docs/                     — visual language, glossary, FAQ, grant language, one-page summary
+/docs/                     — visual language, glossary, FAQ, grant language,
+                             one-page summary, why GitHub, review checklist
 
 SSL-METHOD.md               — the Small Systems Lab method this repo applies
 INDEX.md                    — full file index
