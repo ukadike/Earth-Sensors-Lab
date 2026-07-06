@@ -142,6 +142,14 @@ index.html, site.css,
 variables.css               — GitHub Pages homepage (locked visual system)
 ```
 
+## Related SSL Projects
+
+- [Small Systems Lab](https://ukadike.github.io/small-systems-lab/) — ecosystem hub
+- [Omoluabi](https://ukadike.github.io/omoluabi/) — editorial intelligence
+- [Echo](https://ukadike.github.io/echo/) — AI literacy
+- [Umada](https://ukadike.github.io/umada/) — speculative worldbuilding
+- [Accessible by Design](https://ukadike.github.io/accessible-by-design-prototyping/) — accessibility audit lab
+
 ## How to Collaborate
 
 Earth Sensors Lab welcomes:
