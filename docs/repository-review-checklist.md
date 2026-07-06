@@ -60,11 +60,19 @@ changes substantially.
   pilots/nyu-partnership-note.md and PARTNERSHIP_MODEL.md's university
   research partner row; still `AWAITING FRAGMENT` on any specific,
   confirmed university relationship.
-- **Does every major component have a schema card?** Partially — SCHEMA_CARD.md
-  states the rule and the repo's own card follows it; the ten individual
-  prototypes in PROTOTYPES.md do not yet each have their own full schema
-  card (only the shared JSON Schema structures in /schemas/). **Tracked as
-  an open item, not hidden.**
+- **Does every major component have a schema card?** Yes, as of the schema-card
+  pass — all ten prototypes in PROTOTYPES.md now carry a filled card
+  (audience, accessibility requirements, inputs, outputs, materials, data
+  collected, consent needs, risks, next steps), following
+  [/schemas/lab.schema.json](../schemas/lab.schema.json). Curriculum modules
+  (including the newer [Module 7](../curriculum/module-07-observing-space.md))
+  carry the equivalent structure natively via
+  [curriculum.schema.json](../schemas/curriculum.schema.json)'s fields
+  (learning goals, materials, accessibility notes, activity, reflection
+  questions, research notes, teacher adaptation notes), so they were not
+  double-carded. Pilot templates in /pilots/ are intentionally blank
+  templates (per [pilot.schema.json](../schemas/pilot.schema.json)) —
+  filled only once a real pilot exists, which is correct, not a gap.
 
 ## How to use this checklist going forward
 
