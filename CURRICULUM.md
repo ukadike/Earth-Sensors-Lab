@@ -10,6 +10,12 @@ evidence. See [CURRICULUM.md](CURRICULUM.md) status labels and
 [/curriculum/overview.md](curriculum/overview.md) for the current state of
 each module.
 
+**Want the whole curriculum in one read?** See
+[/curriculum/full-curriculum-guide.md](curriculum/full-curriculum-guide.md)
+— a single, sequenced guide to all six modules with suggested grade bands
+and timing, built for a teacher, reviewer, or partner who wants the full
+picture without opening every module file separately.
+
 ## Curriculum philosophy: observation before devices
 
 The curriculum should begin with observation, not devices.

@@ -42,8 +42,36 @@ partnership conversations describing Earth Sensors Lab.
 - Do not cite specific pilot outcomes, partner names, or funding amounts
   that are not already documented elsewhere in this repository as real.
 
+## Potential funder alignment: Processing Foundation
+
+The [Processing Foundation](https://processingfoundation.org/)'s mission —
+promoting software learning within the arts and artistic learning within
+technology, and expanding access to those fields for people underrepresented
+because of race, gender, class, sexuality, immigration status, age,
+geography, or disability — overlaps directly with this lab's own mission.
+Earth Sensors Lab's [p5.js visualization
+prototype](../software/p5-visualizations.md) already builds on
+Processing/p5.js specifically, and the lab's accessibility-as-research-method
+stance (see [ACCESSIBILITY.md](../ACCESSIBILITY.md)) matches the
+Foundation's disability-inclusive framing of who technology and the arts
+should serve.
+
+Two concrete, current facts worth noting accurately in any application, as
+of mid-2026: the Processing Foundation is not running its Fellowship program
+in 2026 while it redesigns that program, with more information expected in
+October 2026; separately, it is currently funding 20 microgrants to the
+p5.js contributor community in 2026 (10 of them for p5.js 2.0+ development
+and documentation, with Generative Art Foundation support). Neither of these
+is a confirmed relationship with Earth Sensors Lab — this section records a
+genuine mission and tooling fit worth pursuing, not an existing grant or
+partnership. Any specific application should be checked against the
+Foundation's current, live program pages rather than this summary, since
+program details change.
+
 ## Related documents
 
 - [/docs/one-page-summary.md](one-page-summary.md)
 - [PARTNERSHIP_MODEL.md](../PARTNERSHIP_MODEL.md)
 - [ROADMAP.md](../ROADMAP.md) — Phase 4, Funding Readiness
+- [/software/p5-visualizations.md](../software/p5-visualizations.md) — the
+  prototype most directly relevant to a Processing Foundation application

@@ -45,6 +45,8 @@ versus planned.
 ## /curriculum/
 
 - [overview.md](curriculum/overview.md)
+- [full-curriculum-guide.md](curriculum/full-curriculum-guide.md) — all six
+  modules sequenced in one document, with suggested grade bands and timing
 - [module-01-observation.md](curriculum/module-01-observation.md)
 - [module-02-sensors.md](curriculum/module-02-sensors.md)
 - [module-03-soil-and-water.md](curriculum/module-03-soil-and-water.md)
