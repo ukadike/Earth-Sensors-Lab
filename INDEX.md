@@ -37,6 +37,8 @@ versus planned.
 - [research-questions.md](research/research-questions.md)
 - [what-counts-as-data.md](research/what-counts-as-data.md)
 - [knowledge-contributions.md](research/knowledge-contributions.md)
+- [external-programs.md](research/external-programs.md) — real NASA, CERN,
+  and ESA programs Pillar 8 (Sky and Space Observation) could align with
 - [literature-map.md](research/literature-map.md)
 - [study-protocols.md](research/study-protocols.md)
 - [pilot-evaluation.md](research/pilot-evaluation.md)
@@ -53,6 +55,8 @@ versus planned.
 - [module-04-sound-and-data.md](curriculum/module-04-sound-and-data.md)
 - [module-05-ai-and-patterns.md](curriculum/module-05-ai-and-patterns.md)
 - [module-06-community-observatory.md](curriculum/module-06-community-observatory.md)
+- [module-07-observing-space.md](curriculum/module-07-observing-space.md) —
+  `proposed`, extends the sequence into sky/space observation
 - [teacher-guide.md](curriculum/teacher-guide.md)
 - [student-workbook.md](curriculum/student-workbook.md)
 - [field-notebook-model.md](curriculum/field-notebook-model.md)

@@ -14,6 +14,7 @@ study) as real evidence accumulates — never by assertion.
 | How can community gardens become observatories? | OPEN QUESTION | [Community Observatory Kit](../PROTOTYPES.md), [module-06](../curriculum/module-06-community-observatory.md) |
 | How can schools participate in research without carrying the financial burden of experimentation? | OPEN QUESTION | [PARTNERSHIP_MODEL.md](../PARTNERSHIP_MODEL.md) |
 | How can local ecological knowledge become part of STEAM education? | OPEN QUESTION | [Teacher Research Guide](../curriculum/teacher-guide.md) |
+| How can low-cost, hands-on sky-observation tools extend accessible, community-based science from the ground to the sky? | OPEN QUESTION | [module-07-observing-space.md](../curriculum/module-07-observing-space.md), [external-programs.md](external-programs.md) |
 
 ## Notes on status
 

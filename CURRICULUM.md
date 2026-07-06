@@ -12,9 +12,11 @@ each module.
 
 **Want the whole curriculum in one read?** See
 [/curriculum/full-curriculum-guide.md](curriculum/full-curriculum-guide.md)
-— a single, sequenced guide to all six modules with suggested grade bands
-and timing, built for a teacher, reviewer, or partner who wants the full
-picture without opening every module file separately.
+— a single, sequenced guide to the six Earth-focused modules with suggested
+grade bands and timing, built for a teacher, reviewer, or partner who wants
+the full picture without opening every module file separately. (Module 7,
+Observing Space, is newer and not yet folded into that guide's sequence
+table — see its own file for now.)
 
 ## Curriculum philosophy: observation before devices
 
@@ -64,12 +66,16 @@ recorded.
    [module-06-community-observatory.md](curriculum/module-06-community-observatory.md)
 8. **Build Your Own Observatory** — continues in
    [module-06-community-observatory.md](curriculum/module-06-community-observatory.md)
+9. **Observing Space** —
+   [module-07-observing-space.md](curriculum/module-07-observing-space.md)
 
 > Note on numbering: the eight thematic modules named in this repository's
-> brief map onto six documented module files, since "Sounding the
+> original brief map onto six documented module files, since "Sounding the
 > Environment" and "Data as Story" share a file, as do "Community Science"
 > and "Build Your Own Observatory." Each file states clearly which of the
-> eight themes it covers.
+> eight themes it covers. Observing Space is a ninth theme added afterward,
+> extending the sequence into [Pillar 8](RESEARCH_AGENDA.md) — see
+> [/research/external-programs.md](research/external-programs.md) for why.
 
 ## Each module includes
 

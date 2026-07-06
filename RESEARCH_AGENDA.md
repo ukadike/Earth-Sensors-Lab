@@ -70,6 +70,21 @@ ability levels, and environments?
 How can students connect soil, heat, water, air, plants, and weather to
 larger environmental systems?
 
+### 8. Sky and Space Observation
+
+How can the same accessible-observation and community-science principles
+that apply to soil, water, and gardens extend outward — to light pollution,
+radio emissions from the Sun and planets, cosmic rays, and orbiting
+hardware? Earth Sensors Lab's founding scope already named "astronomy and
+interstellar object literacy" and "sky observation" as starter ideas before
+this repository's structural documentation pass narrowed the required
+curriculum to six Earth-focused modules; this pillar restores that thread
+without displacing the Earth-focused work above. See
+[/research/external-programs.md](research/external-programs.md) for real,
+currently active NASA, CERN, and ESA programs this pillar could align with,
+and [module-07-observing-space.md](curriculum/module-07-observing-space.md)
+for the curricular starting point.
+
 Each pillar organizes one or more of the core research questions below, and
 in turn organizes specific prototypes ([PROTOTYPES.md](PROTOTYPES.md)),
 curriculum modules ([CURRICULUM.md](CURRICULUM.md)), and pilot designs
@@ -78,7 +93,7 @@ curriculum modules ([CURRICULUM.md](CURRICULUM.md)), and pilot designs
 for what the lab aims to actually contribute back from work on these
 pillars, and
 [/research/what-counts-as-data.md](research/what-counts-as-data.md) for how
-broadly "data" is defined across all seven.
+broadly "data" is defined across all eight.
 
 ## Core research questions
 
@@ -90,13 +105,15 @@ broadly "data" is defined across all seven.
 - How can schools participate in research without carrying the financial
   burden of experimentation?
 - How can local ecological knowledge become part of STEAM education?
+- How can low-cost, hands-on sky-observation tools extend accessible,
+  community-based science from the ground to the sky?
 
 Mapped to pillars: sensor-based learning and low-cost instrumentation →
 Pillars 1 and 4; blind/low-vision participation and sound/touch
 understanding → Pillars 1 and 2; AI support → Pillar 5; community gardens →
 Pillar 3; schools carrying financial burden → partnership design, not a
 pillar on its own (see [PARTNERSHIP_MODEL.md](PARTNERSHIP_MODEL.md)); local
-ecological knowledge → Pillars 6 and 7.
+ecological knowledge → Pillars 6 and 7; sky-observation tools → Pillar 8.
 
 ## How the agenda is used
 

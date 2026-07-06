@@ -1,13 +1,21 @@
 # Earth Sensors Lab — Full Curriculum Guide
 
-A single, sequenced guide to all six Earth Sensors Lab curriculum modules,
-for a teacher, reviewer, or partner who wants the whole picture in one read.
-The individual module files remain the source of truth for full detail —
-this guide summarizes and sequences them. All content below is `in
-development`: grade bands and time estimates are suggested starting points
-for adaptation, not field-tested recommendations. See
+A single, sequenced guide to the six Earth-focused Earth Sensors Lab
+curriculum modules, for a teacher, reviewer, or partner who wants the whole
+picture in one read. The individual module files remain the source of truth
+for full detail — this guide summarizes and sequences them. All content
+below is `in development`: grade bands and time estimates are suggested
+starting points for adaptation, not field-tested recommendations. See
 [PILOT_MODEL.md](../PILOT_MODEL.md) for how real classroom testing would
 change these numbers.
+
+**A seventh module exists:** [Observing Space](module-07-observing-space.md)
+extends this sequence from ground-level environmental sensing to the sky,
+and is newer than the six modules below — not yet folded into the sequence
+table and grade-band estimates here, since it hasn't gone through the same
+review pass as Modules 1–6. See its own file, and
+[/research/external-programs.md](../research/external-programs.md) for the
+real NASA, CERN, and ESA programs it connects to.
 
 ## How to use this guide
 

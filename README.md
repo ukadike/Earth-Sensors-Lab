@@ -45,16 +45,19 @@ Earth Sensors Lab studies:
 - cross-cultural science learning
 - inclusive curriculum design
 - teacher professional development
+- sky and space observation, extending the same accessible-observation
+  principles outward — see [module-07-observing-space.md](curriculum/module-07-observing-space.md)
+  and [/research/external-programs.md](research/external-programs.md)
 
-This work is organized around seven research pillars — Accessible
+This work is organized around eight research pillars — Accessible
 Observation, Multisensory Data, Community-Based Science, Low-Cost
-Instrumentation, AI as Reflection Support, Teacher-Led Adaptation, and
-Climate and Ecological Literacy — and a central research thesis: that
-science learning can begin with direct observation, community knowledge,
-environmental care, accessible tools, and multisensory interpretation,
-rather than assuming visual charts and expensive instruments as the
-default entry point. See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for the
-full thesis, pillars, and guiding research questions.
+Instrumentation, AI as Reflection Support, Teacher-Led Adaptation, Climate
+and Ecological Literacy, and Sky and Space Observation — and a central
+research thesis: that science learning can begin with direct observation,
+community knowledge, environmental care, accessible tools, and multisensory
+interpretation, rather than assuming visual charts and expensive instruments
+as the default entry point. See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for
+the full thesis, pillars, and guiding research questions.
 
 ## Who It Serves
 

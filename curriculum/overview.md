@@ -2,8 +2,9 @@
 
 Earth Sensors Lab curriculum is organized as eight thematic modules, sharing
 six documented module files (two files each cover two closely related
-themes). Every module is designed to work with or without a physical sensor
-kit, and with or without reliable internet access.
+themes), plus a seventh file extending the sequence outward into sky and
+space observation. Every module is designed to work with or without a
+physical sensor kit, and with or without reliable internet access.
 
 ## Design principles
 
@@ -29,6 +30,13 @@ kit, and with or without reliable internet access.
 | 4 | Data as Story / Sounding the Environment | [module-04-sound-and-data.md](module-04-sound-and-data.md) | in development |
 | 5 | AI as Pattern Assistant | [module-05-ai-and-patterns.md](module-05-ai-and-patterns.md) | in development |
 | 6 | Community Science / Build Your Own Observatory | [module-06-community-observatory.md](module-06-community-observatory.md) | proposed |
+| 7 | Observing Space | [module-07-observing-space.md](module-07-observing-space.md) | proposed |
+
+Module 7 is the newest addition, extending the sequence's observation-first
+philosophy from ground-level environmental sensing to the sky — see
+[RESEARCH_AGENDA.md](../RESEARCH_AGENDA.md) Pillar 8 and
+[/research/external-programs.md](../research/external-programs.md) for the
+real external programs (NASA, CERN, ESA) it connects to.
 
 ## Supporting materials
 
