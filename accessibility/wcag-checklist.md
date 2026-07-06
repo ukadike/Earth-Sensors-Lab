@@ -69,13 +69,23 @@ homepage. Findings and fixes:
   contrast at 14.7:1 (1.4.3/1.4.6), no flashing content (2.3.1), no
   hover-only or drag-only interactions (2.1.1, 2.5.7).
 
+### Browser-based verification (July 2026, same pass)
+
+Following the code review, the homepage was loaded in Chromium and tested
+with axe-core against WCAG 2.0/2.1/2.2 A and AA rules plus best practices:
+**zero violations, zero incomplete checks.** A scripted keyboard walk
+confirmed: skip link is the first tab stop and is visible when focused,
+tab order follows reading order through the nav and all content links,
+every stop shows the 2px focus outline, and the page produces no
+horizontal scroll at a 320px viewport (SC 1.4.10 Reflow).
+
 ### What this audit is not
 
-This was a manual code review with computed contrast ratios — **not**
-testing with a real screen reader, a keyboard-only user session, or an
-assistive-technology user. Those remain `AWAITING FRAGMENT`. A code-level
-pass can catch mechanical failures (it caught one); it cannot confirm the
-page actually works well with assistive technology.
+Code review plus an automated browser scan and scripted keyboard walk —
+**not** testing with a real screen reader or an assistive-technology user.
+Automated tools catch mechanical failures (this pass caught and fixed a
+contrast failure); they cannot confirm the page actually works well for a
+person using assistive technology. Human testing is the remaining step.
 
 ## Auditing
 
