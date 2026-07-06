@@ -1,6 +1,14 @@
 /* Site-specific layout glue. Tokens/components come from variables.css (locked); this file
    only adds layout (max-width, grid) and the base element rules variables.css doesn't set. */
 
+/* WCAG 2.2 AA contrast fix — ESL-local token override, not an edit to the locked
+   variables.css. The shared --color-muted (#6f6f6f) measures 4.25:1 against
+   --color-paper (#efece2), below the 4.5:1 minimum for normal-size text (SC 1.4.3).
+   #5f5f5f measures 5.40:1 on paper and 6.39:1 on white. Documented in
+   accessibility/wcag-checklist.md; flagged for Kemi review before propagating to
+   sibling repos. */
+:root { --color-muted: #5f5f5f; }
+
 body {
   margin: 0;
   background-color: var(--color-paper);
@@ -39,6 +47,29 @@ header.header {
   margin-bottom: 0;
 }
 header.header .wrap { display: flex; flex-direction: column; gap: var(--space-sm); }
+
+.site-nav {
+  border-bottom: var(--border-thin);
+  padding: var(--space-md) 0;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+}
+.site-nav a {
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-wide);
+  color: var(--color-ink);
+  /* padding keeps each target at or above the 24px minimum (SC 2.5.8) */
+  display: inline-block;
+  padding: var(--space-xs) 0;
+}
 
 main { padding: var(--space-2xl) 0 var(--space-3xl); }
 main section { margin-bottom: var(--space-3xl); }

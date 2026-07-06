@@ -28,13 +28,13 @@ changes substantially.
   states this explicitly and now includes the "schools as research partners,
   not customers" section; the tone rules in CLAUDE.md explicitly ban "fun
   STEM camp" language.
-- **Are accessibility commitments visible from the homepage?** Partially —
-  `index.html`'s Accessibility Baseline section lists the commitments, but
-  ties less directly to the "accessibility is a research method" argument
-  now in ACCESSIBILITY.md than the Markdown documentation does. Homepage
-  copy could be strengthened further — **flagged for future review**, not
-  fixed in this pass to avoid touching the locked visual system beyond
-  content.
+- **Are accessibility commitments visible from the homepage?** Yes — the
+  homepage carries the "accessibility is a research method" framing, links
+  to ACCESSIBILITY.md, and (as of the July 2026 code-level audit recorded in
+  [wcag-checklist.md](../accessibility/wcag-checklist.md)) practices what it
+  claims: a found-and-fixed contrast failure, a new labeled navigation
+  landmark, and screen-reader-structured link destinations. Real
+  assistive-technology testing is still outstanding.
 - **Are research questions explicit?** Yes — RESEARCH_AGENDA.md and
   research/research-questions.md.
 - **Are pilots framed as learning sites?** Yes — PILOT_MODEL.md plus the new

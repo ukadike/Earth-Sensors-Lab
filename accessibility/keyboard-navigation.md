@@ -20,7 +20,11 @@ requirements and current implementation status.
 
 The GitHub Pages homepage (`index.html`) implements:
 
-- A skip-link to `#main` as the first focusable element.
+- A skip-link to `#main` as the first focusable element — which now also
+  bypasses the primary navigation (SC 2.4.1 Bypass Blocks).
+- A labeled primary navigation landmark (`<nav aria-label="Primary">`) with
+  six links to the repository's key documents, in logical tab order, each
+  padded to meet the SC 2.5.8 minimum target size.
 - A global visible focus outline via `variables.css` (`--focus-outline`,
   applied through a `*:focus` rule and explicit rules for links, buttons, and
   inputs).
