@@ -97,3 +97,17 @@ footer.site-footer {
   border-top: var(--border-thick);
   padding: var(--space-xl) 0 var(--space-2xl);
 }
+
+/* Motion safeguard (SC 2.3.3, AAA) — the locked --transition token is already
+   "none" today, so nothing currently animates. This rule is a defensive floor
+   so that any transition/animation added later to this page (or copied from a
+   sibling repo) is force-disabled for users who request reduced motion,
+   instead of relying on every future author remembering to check. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

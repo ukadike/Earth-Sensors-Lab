@@ -74,6 +74,29 @@ Small Systems Lab branch for accessibility research, audits, and tooling.
 Where that repository has established patterns (audit methods, tooling),
 Earth Sensors Lab reuses rather than re-derives them.
 
+## Audit log
+
+Full narrative and method are in
+[wcag-checklist.md](accessibility/wcag-checklist.md#re-verification-against-wcag-21-aa-july-20-2026).
+Summary of the WCAG 2.1 AA re-audit run July 20, 2026 against every web file
+in this repository (`index.html`, `site.css`, `variables.css` — no other
+HTML/JS/template files exist):
+
+| # | Location | Criterion | Severity | Status |
+|---|----------|-----------|----------|--------|
+| 1 | `site.css` (no rule existed) | 2.3.3 Animation from Interactions (AAA) | Low — no active failure, defensive gap | **Fixed** — added `prefers-reduced-motion: reduce` block to `site.css` |
+| 2 | `variables.css:12` `--color-line` (`#d0cdc6`), used via `site.css` `.site-nav`/`.divider`/`.card` borders | 1.4.11 Non-text Contrast | Low — decorative use only, not a compliance failure today | **Open** — flagged at the token source; not fixed because every current use is decorative (see checklist for full reasoning) |
+| 3 | `index.html` (whole page) | 1.1.1 Non-text Content | N/A | **Not applicable / AWAITING FRAGMENT** — page has no `<img>` elements yet; will be audited when visuals are added, not assumed compliant in advance |
+
+Counts: **2 findings this pass, 1 fixed, 1 open (token-level, non-blocking),
+1 N/A.** Automated scan (axe-core 4.10 against WCAG 2.0/2.1 A+AA and best
+practices, headless Chromium): **0 violations, 0 incomplete, 32 passes.**
+This adds to, and confirms still-passing, the prior code-level audit and
+browser verification recorded in the checklist (contrast fix, nav landmark,
+rendered-link fix — see checklist for that pass's own counts). As before,
+this is automated + manual code review plus a scripted keyboard walk, not
+testing with a real assistive-technology user; that remains the open step.
+
 ## What this does not claim
 
 No accessibility audit of any Earth Sensors Lab prototype has been completed
