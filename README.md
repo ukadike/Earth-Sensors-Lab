@@ -1,165 +1,229 @@
 # Earth Sensors Lab
 
-Earth Sensors Lab is an accessible STEAM research initiative developing
-low-cost environmental sensing systems, multisensory data tools, and
-community-based science methods.
+Earth Sensors Lab is an **accessibility-first STEAM research and learning laboratory** where mixed-ability student cohorts design, build, calibrate, operate, interrogate, and publicly explain instruments for observing Earth systems, the atmosphere, and the space environment.
 
-We study how learners observe the environment when scientific data can be
-seen, heard, touched, spoken, questioned, and connected to place.
+Students begin with a shared garden or greenhouse observatory and learn science through instrument making: soil and water sensing, microclimate and air-quality observation, vibration and seismic measurement, light and spectroscopy, magnetometry, radio astronomy, particle detection, renewable energy, and multimodal scientific data.
 
-Our work sits at the intersection of accessibility, environmental literacy,
-creative technology, public-interest AI, and community science.
+The core research and engineering cycle is:
 
-Earth Sensors Lab is a research initiative under [Small Systems
-Lab](https://ukadike.github.io/Small-Systems-Lab/), part of a small family of
-public-interest repositories built on a shared method of care, evidence,
-access, and accountable rules.
+**QUESTION → DESIGN → BUILD → CALIBRATE → DEPLOY → OBSERVE → RECORD → INTERROGATE → REPRESENT → SHARE → REDESIGN**
+
+Earth Sensors Lab is a research initiative under [Small Systems Lab](https://ukadike.github.io/Small-Systems-Lab/), part of a family of public-interest projects built on shared rules for care, evidence, accessibility, provenance, and accountable systems.
+
+## Start Here
+
+- [Executive Summary](EXECUTIVE_SUMMARY.md) — who, what, where, how, and what students produce
+- [Playbook](PLAYBOOK.md) — program architecture and curriculum map
+- [Instrument Standard](instruments/INSTRUMENT-STANDARD.md) — required research/build package for every instrument
+- [Instrument Roadmap](instruments/INSTRUMENT-ROADMAP.md) — Earth-to-space instrument sequence
+- [Instrument Schema Card](schemas/INSTRUMENT-SCHEMA-CARD.md) — structured contract connecting instruments, curricula, observations, accessibility, and Omoluabi
+- [STEAM Sensor Research Synthesis](research/STEAM_SENSOR_RESEARCH_SYNTHESIS.md) — evidence and precedents behind the expanded instrument program
+- [NASA Readiness Framework](docs/NASA-READINESS.md) — NASA-relevant science, STEM, research, accessibility, and partnership alignment
+- [NASA-Facing Partnership Brief](docs/NASA-PARTNERSHIP-BRIEF.md) — concise brief for NASA-connected scientists, engineers, educators, and collaborators
 
 ## What This Is
 
-A research laboratory — not a finished product, and not a school program.
-Earth Sensors Lab builds prototypes, documents methods, publishes open
-research questions, develops curriculum, evaluates its own accessibility
-claims, and prepares pilots with schools, universities, museums, libraries,
-and community partners. See [MISSION.md](MISSION.md) for the full framing.
+Earth Sensors Lab is a research laboratory and playbook, not a finished product and not a fee-for-service school program.
 
-## Why It Matters
+It develops and documents:
 
-Environmental sensing and data literacy are increasingly central to STEAM
-education, but the tools and curricula built around them are rarely designed
-for blind and low-vision learners, low-bandwidth classrooms, or communities
-without lab budgets. Earth Sensors Lab treats accessibility, low cost, and
-research rigor as one problem, not three.
+- student-built scientific instruments;
+- accessible and multisensory scientific interfaces;
+- curricula that teach measurement, calibration, uncertainty, and evidence;
+- renewable-energy infrastructure for a shared observatory;
+- longitudinal environmental and space-observation methods;
+- public installations and student-led workshops;
+- open schemas and research protocols that can be reused across sites.
 
-## Research Focus
+Hardware, curricula, and research claims must carry explicit status labels. Proposed work remains `proposed`; a constructed system becomes a `prototype`; testing and validation are claimed only when supported by documented evidence.
 
-Earth Sensors Lab studies:
+## Earth-to-Space Observatory
 
-- accessible STEAM education
-- environmental sensing
-- low-cost scientific instrumentation
-- tactile, sonic, and visual data interfaces
-- AI-supported inquiry
-- community observatories
-- climate literacy
-- cross-cultural science learning
-- inclusive curriculum design
-- teacher professional development
-- sky and space observation, extending the same accessible-observation
-  principles outward — see [module-07-observing-space.md](curriculum/module-07-observing-space.md)
-  and [/research/external-programs.md](research/external-programs.md)
+Earth Sensors Lab treats the garden or greenhouse as the first bounded observatory, then extends the same observation method outward.
 
-This work is organized around eight research pillars — Accessible
-Observation, Multisensory Data, Community-Based Science, Low-Cost
-Instrumentation, AI as Reflection Support, Teacher-Led Adaptation, Climate
-and Ecological Literacy, and Sky and Space Observation — and a central
-research thesis: that science learning can begin with direct observation,
-community knowledge, environmental care, accessible tools, and multisensory
-interpretation, rather than assuming visual charts and expensive instruments
-as the default entry point. See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) for
-the full thesis, pillars, and guiding research questions.
+```text
+SOIL / WATER / LIVING SYSTEMS
+            |
+            v
+      LOCAL ATMOSPHERE
+            |
+            v
+      LIGHT / SPECTRA
+            |
+            v
+ EARTH'S MAGNETIC ENVIRONMENT
+            |
+            v
+       RADIO SKY
+            |
+            v
+     COSMIC PARTICLES
+```
 
-## Who It Serves
+Students may work on different instruments while observing one shared environment. Their measurements can be compared across instruments and across time, turning separate builds into a collective research system.
 
-Students, teachers, and communities directly — and also university
-researchers, accessibility specialists, museum and library educators,
-community science organizers, funders, and open-source contributors who want
-to build on the same tools and documentation.
+## Instrument Program
 
-## What We Build
+The expanded instrument roadmap includes systems for:
 
-- Prototype environmental sensor kits (see [PROTOTYPES.md](PROTOTYPES.md))
-- Accessible data dashboards, sonification tools, and tactile data cards
-- Modular curriculum for classrooms, gardens, museums, and libraries (see
-  [CURRICULUM.md](CURRICULUM.md))
-- Research documentation, schema cards, and open methods any lab could reuse
+- soil moisture, temperature, conductivity, pH, and infiltration;
+- water quality, irrigation, rainfall, and water cycling;
+- temperature, humidity, pressure, wind, light, and UV;
+- particulate and atmospheric observation;
+- biodiversity, phenology, plant health, and acoustic ecology;
+- mechanical and electronic vibration/seismic observation;
+- light and spectral measurement;
+- magnetic-field and electromagnetic observation;
+- radio-sky observation;
+- cosmic-particle detection;
+- solar/wind generation, storage, and observatory energy telemetry;
+- rule-based multimodal translation of scientific observations.
 
-Nothing here is presented as a finished, market-ready product. Hardware and
-software are documented as **prototype kits** and **concepts** — see
-[/hardware/](hardware/) and [/software/](software/).
+See [Instrument Roadmap](instruments/INSTRUMENT-ROADMAP.md) for the phased build sequence.
+
+## Accessibility Is Instrument Infrastructure
+
+Disabled students are encouraged to participate as designers, builders, researchers, and decision-makers from the beginning. Accessibility is not added after an instrument is finished.
+
+Where scientifically appropriate, one canonical observation can support parallel representations:
+
+```text
+                OBSERVATION
+                    |
+      +-------------+-------------+
+      |             |             |
+    VISUAL         SONIC        TACTILE
+      |             |             |
+      +-------------+-------------+
+                    |
+             TEXT / SPEECH
+```
+
+Representations may include accessible tables, graphs, sonification, speech, tactile graphics, Braille/tactile labels, and haptic mappings. Transformation rules must be documented so that accessibility does not silently alter scientific meaning.
+
+The lab also studies a research question: **how do different sensory representations affect scientific pattern recognition, explanation, collaboration, and learning?**
+
+See [ACCESSIBILITY.md](ACCESSIBILITY.md) and [/accessibility/](accessibility/).
+
+## Scientific Rigor
+
+Students do not simply ask what a sensor says. Every instrument curriculum teaches them to ask:
+
+- What physical phenomenon are we observing?
+- What detects it?
+- How does the phenomenon become a signal?
+- How does the signal become data?
+- What units are reported?
+- How was the instrument calibrated?
+- What creates noise, interference, or error?
+- What uncertainty remains?
+- What evidence supports a conclusion?
+- What can the evidence not tell us?
+
+Calibration, provenance, quality assurance, uncertainty, failed observations, and redesign are part of the curriculum rather than hidden technical details.
+
+## Renewable Observatory
+
+The observatory is designed to investigate its own energy system. Student projects can include solar generation, appropriate small-scale wind generation, batteries, capacitors/supercapacitors, charge control, DC distribution, load measurement, and energy budgeting.
+
+The power system therefore becomes both infrastructure and curriculum:
+
+**generation → storage → distribution → instrument load → telemetry → student decision-making**
+
+Students can investigate the energy cost of making, processing, storing, and communicating an observation.
+
+## Omoluabi and Schema Cards
+
+Every major instrument, curriculum, observation, calibration, experiment, representation, and finding is designed to carry a stable identifier and structured record through the Small Systems Lab Schema Card method.
+
+This makes relationships codifiable rather than dependent on prose.
+
+Omoluabi can use those records as a rules-based interrogation layer:
+
+**observation → instrument → sensor/transducer → calibration → protocol → uncertainty → related evidence → curriculum → accessible representations**
+
+Omoluabi does not replace observation or scientific judgment. Its rules prohibit inventing missing measurements, converting uncertainty into fact, or treating an unsupported inference as evidence.
+
+See [Instrument Schema Card](schemas/INSTRUMENT-SCHEMA-CARD.md).
+
+## NASA Readiness
+
+Earth Sensors Lab is being developed so that its Earth-to-space science, student engineering, accessibility research, and public-engagement model can be legible to NASA scientists, engineers, STEM-engagement teams, and university collaborators.
+
+This is **not** a claim of NASA endorsement or certification. NASA relationships and funding mechanisms have specific requirements that must be evaluated individually.
+
+The program has substantive points of connection to Earth Science, heliophysics, radio astronomy, spectroscopy, space-environment observation, engineering education, citizen science, accessible scientific data, and STEM workforce pathways. NASA Radio JOVE is an especially relevant precedent for student-built scientific instrumentation and authentic observation.
+
+See [NASA Readiness Framework](docs/NASA-READINESS.md) and [NASA-Facing Partnership Brief](docs/NASA-PARTNERSHIP-BRIEF.md).
+
+## Public Observatory and Workshops
+
+Each cohort contributes to an evolving Earth Sensors Observatory.
+
+At designated points, students transform the working research environment into an accessible public installation. Families, schools, researchers, and community members can encounter live or historical measurements, examine instruments, experience scientific data through multiple sensory modes, and participate in student-led workshops.
+
+Students explain not only what they observed but how they know, how the instrument was calibrated, what uncertainty remains, and what they would redesign.
+
+Public interaction becomes evidence for the next engineering cycle.
+
+## Research Directions
+
+Earth Sensors Lab currently organizes research around questions including:
+
+1. **Instrument literacy** — How does building and calibrating an instrument affect understanding of evidence, error, and uncertainty?
+2. **Low-cost observatory validity** — Under what conditions can low-cost or student-built instruments produce scientifically useful observations?
+3. **Accessible scientific reasoning** — How do visual, sonic, tactile, haptic, spoken, and tabular representations affect scientific interpretation?
+4. **Networked observatories** — What scientific and learning value emerges when multiple sites use interoperable instruments and shared protocols?
+5. **Community science and public interpretation** — How does teaching visitors change students' own understanding of evidence and scientific explanation?
+6. **Energy cost of observation** — What energy is required to sense, compute, store, represent, and communicate environmental knowledge?
+
+See [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md) and [STEAM Sensor Research Synthesis](research/STEAM_SENSOR_RESEARCH_SYNTHESIS.md).
 
 ## Partnership Model
 
-Earth Sensors Lab partners with schools and institutions as research and
-learning sites. It is not primarily a fee-for-service school vendor. The goal
-is to develop, test, document, and share accessible STEAM methods through
-funded research, grants, fellowships, and public-interest partnerships. See
-[PARTNERSHIP_MODEL.md](PARTNERSHIP_MODEL.md) for partner types and how a
-partnership starts.
+Earth Sensors Lab can work with schools, universities, museums, libraries, gardens, community organizations, accessibility researchers, engineers, scientists, artists, and funders as research and learning partners.
 
-## Accessibility Commitments
+The goal is to develop, test, evaluate, document, and share accessible STEAM methods through funded research, fellowships, grants, institutional collaboration, and public-interest partnerships.
 
-Accessibility is a core research layer, not an add-on: WCAG 2.2 AA minimum,
-keyboard-only navigation, screen reader compatibility, alt text and captions,
-tactile diagrams, sonified data, plain-language summaries, multilingual
-readiness, and offline-first field use. See
-[ACCESSIBILITY.md](ACCESSIBILITY.md).
-
-## Current Prototypes
-
-Ten prototype areas are documented in [PROTOTYPES.md](PROTOTYPES.md),
-spanning hardware (sensor kits), software (dashboards, sonification, AI
-reflection), and field materials (tactile data cards, offline companions).
-All are `prototype` or `in development` — see that file for status on each.
+See [PARTNERSHIP_MODEL.md](PARTNERSHIP_MODEL.md).
 
 ## Repository Map
 
-```
-README.md                  — this file
-MISSION.md                 — why this lab exists and what "research" means here
-CLAUDE.md                  — instructions for AI-assisted contributions
-RESEARCH_AGENDA.md          — guiding research questions
-PARTNERSHIP_MODEL.md        — partner types and how partnerships start
-ACCESSIBILITY.md            — accessibility baseline and commitments
-ETHICS_AND_CONSENT.md       — consent, privacy, and data-handling rules
-PILOT_MODEL.md              — what a pilot involves, phase by phase
-CURRICULUM.md               — modular curriculum overview
-PROTOTYPES.md               — the ten prototype areas and their status
-SCHEMA_CARD.md              — this repo's own schema card, plus the schema-card rule
-ROADMAP.md                  — five-phase roadmap
-CONTRIBUTING.md             — how to contribute
-LICENSE.md                  — licensing terms
+```text
+EXECUTIVE_SUMMARY.md        — executive-level program summary
+PLAYBOOK.md                 — program and curriculum architecture
+MISSION.md                  — mission and research framing
+RESEARCH_AGENDA.md          — research thesis and guiding questions
+PARTNERSHIP_MODEL.md        — institutional collaboration model
+ACCESSIBILITY.md            — accessibility commitments
+ETHICS_AND_CONSENT.md       — consent, privacy, and data handling
+PILOT_MODEL.md              — research-site/pilot structure
+CURRICULUM.md               — curriculum overview
+PROTOTYPES.md               — prototype inventory and status
+SCHEMA_CARD.md              — repository schema-card rule
+ROADMAP.md                  — program roadmap
 
-/research/                 — research questions, thesis, pillars, literature map,
-                             study protocols, what counts as data, knowledge
-                             contributions
-/curriculum/               — eight curriculum modules, teacher guide, student
-                             workbook, field notebook model
-/accessibility/            — accessibility principles, sensory stack, and
-                             implementation guides
-/hardware/                 — prototype sensor kit documentation
-/software/                 — dashboard, visualization, reasoning layers, AI
-                             boundaries, and concept documentation
-/pilots/                   — pilot case notes, pilot-as-research-site framing,
-                             and partner templates
-/schemas/                  — JSON schemas for every major repo component
-/docs/                     — visual language, glossary, FAQ, grant language,
-                             one-page summary, why GitHub, review checklist
-
-SSL-METHOD.md               — the Small Systems Lab method this repo applies
-INDEX.md                    — full file index
-index.html, site.css,
-variables.css               — GitHub Pages homepage (locked visual system)
+/instruments/               — instrument standard, roadmap, and instrument dossiers
+/research/                  — research synthesis, literature, protocols, methods
+/curriculum/                — curriculum modules and field-learning materials
+/accessibility/             — sensory stack and implementation guidance
+/hardware/                  — prototype hardware documentation
+/software/                  — data, interface, reasoning, and software documentation
+/schemas/                   — structured schemas and Schema Cards
+/pilots/                    — research-site and partner documentation
+/docs/                      — funder, NASA, visual-language, review, and public materials
 ```
 
-## How to Collaborate
+## Collaboration
 
-Earth Sensors Lab welcomes:
+Earth Sensors Lab welcomes collaboration from:
 
-- **Schools, universities, museums, and libraries** interested in becoming
-  pilot or research partners — start with
-  [PARTNERSHIP_MODEL.md](PARTNERSHIP_MODEL.md).
-- **Accessibility researchers and advisors** — see
-  [ACCESSIBILITY.md](ACCESSIBILITY.md) and [/accessibility/](accessibility/).
-- **Hardware and software contributors** — see [/hardware/](hardware/),
-  [/software/](software/), and [CONTRIBUTING.md](CONTRIBUTING.md).
-- **Funders and institutional partners** — see
-  [/docs/grant-language.md](docs/grant-language.md) and
-  [/docs/one-page-summary.md](docs/one-page-summary.md).
-- **Questions and corrections** through GitHub Issues — no email required:
-  <https://github.com/ukadike/Earth-Sensors-Lab/issues>
+- schools and universities interested in research or learning sites;
+- scientists and engineers interested in instrumentation and observation;
+- accessibility researchers, disabled scientists, students, and advisors;
+- museums, libraries, gardens, and public-learning institutions;
+- hardware and software contributors;
+- artists and creative technologists working with scientific data;
+- funders and institutional partners interested in accessible STEM, Earth/space science, community research, and public-interest technology.
 
-No fabricated results, pilots, partners, or studies appear in this
-repository. Where something is proposed but not yet real, it is labeled
-`proposed`, `prototype`, or `in development`. See [CLAUDE.md](CLAUDE.md) for
-the full no-fabrication rule that governs every file here.
+No fabricated results, pilots, partners, validation, or studies appear in this repository. Where something is proposed but not yet real, it is labeled accordingly.
