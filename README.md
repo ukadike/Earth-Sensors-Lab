@@ -14,6 +14,7 @@ Earth Sensors Lab is a research initiative under [Small Systems Lab](https://uka
 
 - [Executive Summary](EXECUTIVE_SUMMARY.md) — who, what, where, how, and what students produce
 - [Playbook](PLAYBOOK.md) — program architecture and curriculum map
+- [System Relationships](docs/SYSTEM-RELATIONSHIPS.md) — how ESL connects to Small Systems Lab, Omoluabi, Accessible by Design, Umada, Ijoya, Echo, and future branches without collapsing their different evidence domains
 - [Instrument Standard](instruments/INSTRUMENT-STANDARD.md) — required research/build package for every instrument
 - [Instrument Roadmap](instruments/INSTRUMENT-ROADMAP.md) — Earth-to-space instrument sequence
 - [Instrument Schema Card](schemas/INSTRUMENT-SCHEMA-CARD.md) — structured contract connecting instruments, curricula, observations, accessibility, and Omoluabi
@@ -138,13 +139,26 @@ Every major instrument, curriculum, observation, calibration, experiment, repres
 
 This makes relationships codifiable rather than dependent on prose.
 
-Omoluabi can use those records as a rules-based interrogation layer:
+[Omoluabi](https://ukadike.github.io/omoluabi/) can use those records as a rules-based interrogation layer:
 
 **observation → instrument → sensor/transducer → calibration → protocol → uncertainty → related evidence → curriculum → accessible representations**
 
 Omoluabi does not replace observation or scientific judgment. Its rules prohibit inventing missing measurements, converting uncertainty into fact, or treating an unsupported inference as evidence.
 
-See [Instrument Schema Card](schemas/INSTRUMENT-SCHEMA-CARD.md).
+See [Instrument Schema Card](schemas/INSTRUMENT-SCHEMA-CARD.md) and [System Relationships](docs/SYSTEM-RELATIONSHIPS.md).
+
+## Small Systems Lab Ecosystem
+
+ESL is designed to be legible on its own, but visitors should be able to follow the larger system when a relationship matters:
+
+- [Small Systems Lab](https://ukadike.github.io/Small-Systems-Lab/) — parent method and ecosystem hub.
+- [Omoluabi](https://ukadike.github.io/omoluabi/) — evidence, provenance, rule-based interrogation, contradictions, uncertainty, and human review.
+- [Accessible by Design / Accessibility Audit Lab](https://ukadike.github.io/accessible-by-design-prototyping/) — accessibility testing for the web, p5.js, PDFs, canvas, and multimodal interfaces ESL produces.
+- [UMADA](https://ukadike.github.io/Umada/) — bounded speculative translation of systems, infrastructure, sensing, archives, and future questions; scientific ESL records and narrative canon remain separate.
+- [Echo](https://ukadike.github.io/Echo/) — AI literacy around source checking, hallucination, privacy, uncertainty, accessibility, and human judgment.
+- [Ijoya](https://github.com/ukadike/Ijoya) — planned exploratory relationship around embodied/movement-based connection; not yet presented as an implemented ESL dependency.
+
+The canonical explanation of what may pass between these systems — and what must remain separate — is [docs/SYSTEM-RELATIONSHIPS.md](docs/SYSTEM-RELATIONSHIPS.md).
 
 ## NASA Readiness
 
@@ -211,7 +225,7 @@ ROADMAP.md                  — program roadmap
 /software/                  — data, interface, reasoning, and software documentation
 /schemas/                   — structured schemas and Schema Cards
 /pilots/                    — research-site and partner documentation
-/docs/                      — funder, NASA, visual-language, review, and public materials
+/docs/                      — funder, NASA, visual-language, system-relationship, review, and public materials
 ```
 
 ## Collaboration
