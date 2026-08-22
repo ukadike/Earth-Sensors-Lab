@@ -76,6 +76,8 @@ versus planned.
 
 - [sensor-kit-overview.md](hardware/sensor-kit-overview.md)
 - [parts-list.md](hardware/parts-list.md)
+- [soil-sensing-station-bom-v1.md](hardware/soil-sensing-station-bom-v1.md) — **Core Student Station v1.0 BOM**; component roles, channel allocation, calibration requirements, accessibility rules, advanced EC/pH separation, and explicit pre-build validation state
+- [soil-sensing-station-wiring-v1.md](hardware/soil-sensing-station-wiring-v1.md) — **authoritative text wiring/signal map** for Visual 05; moisture → ADS1115 → ESP32, DS18B20 1-Wire, SPI storage, accessible interface, optional network, and protected low-voltage power
 - [arduino-guide.md](hardware/arduino-guide.md)
 - [raspberry-pi-guide.md](hardware/raspberry-pi-guide.md)
 - [soil-moisture.md](hardware/soil-moisture.md)
