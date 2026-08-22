@@ -30,6 +30,7 @@ versus planned.
   source code license TBD)
 - [SSL-METHOD.md](SSL-METHOD.md) — the Small Systems Lab method this repo
   applies
+- [docs/SYSTEM-RELATIONSHIPS.md](docs/SYSTEM-RELATIONSHIPS.md) — how ESL connects to Small Systems Lab, Omoluabi, Accessible by Design, Umada, Ijoya, Echo, and future branches without collapsing their different evidence domains
 - [docs/REPO_AUDIT.md](docs/REPO_AUDIT.md) — repository audit history
 
 ## /research/
@@ -123,6 +124,7 @@ versus planned.
 - [grant-language.md](docs/grant-language.md)
 - [one-page-summary.md](docs/one-page-summary.md)
 - [why-github.md](docs/why-github.md)
+- [SYSTEM-RELATIONSHIPS.md](docs/SYSTEM-RELATIONSHIPS.md) — canonical cross-system context and relationship boundaries
 - [repository-review-checklist.md](docs/repository-review-checklist.md)
 - [REPO_AUDIT.md](docs/REPO_AUDIT.md)
 
@@ -132,13 +134,16 @@ versus planned.
   shared across Small Systems Lab, Echo, Omoluabi, and Umada
 - [site.css](site.css) — ESL's layout glue on top of the locked tokens
 
-## Related
+## Related Small Systems Lab systems
 
-- [Small Systems Lab](https://ukadike.github.io/Small-Systems-Lab/) — parent
-  hub
-- [Accessible by Design](https://github.com/ukadike/accessible-by-design-prototyping)
-  — accessibility research and tooling, linked from
-  [ACCESSIBILITY.md](ACCESSIBILITY.md)
+These links are contextual, not merely promotional. See [System Relationships](docs/SYSTEM-RELATIONSHIPS.md) for what each connection means and what must remain separate.
+
+- [Small Systems Lab](https://ukadike.github.io/Small-Systems-Lab/) — parent method and ecosystem hub
+- [Omoluabi](https://ukadike.github.io/omoluabi/) · [repo](https://github.com/ukadike/omoluabi) — evidence, provenance, rule-based interrogation, and human review
+- [Accessible by Design / Accessibility Audit Lab](https://ukadike.github.io/accessible-by-design-prototyping/) · [repo](https://github.com/ukadike/accessible-by-design-prototyping) — accessibility testing for websites, p5.js, PDFs, canvas, and multimodal interfaces
+- [UMADA](https://ukadike.github.io/Umada/) · [repo](https://github.com/ukadike/Umada) — bounded speculative translation; scientific records and narrative canon remain separate
+- [Echo](https://ukadike.github.io/Echo/) · [repo](https://github.com/ukadike/Echo) — AI literacy and public understanding of machine assistance, uncertainty, privacy, and human judgment
+- [Ijoya](https://github.com/ukadike/Ijoya) — planned exploratory bridge around embodied/movement-based connection; not yet presented as an implemented ESL dependency
 
 ## Status
 
