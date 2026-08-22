@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Earth Sensors Lab</title>
-<meta name="description" content="Earth Sensors Lab is an accessible Earth-to-space STEAM observatory and research initiative developing low-cost sensing systems, multisensory data tools, community science methods, and accessible pathways into environmental and space observation.">
+<meta name="description" content="Earth Sensors Lab is an accessible Earth-to-space STEAM observatory and research initiative developing student-built instruments, multisensory data tools, and community science methods.">
 <link rel="stylesheet" href="variables.css">
 <link rel="stylesheet" href="site.css">
 </head>
@@ -15,11 +15,11 @@
   <div class="wrap">
     <p class="text-meta">Small Systems Lab · Earth Sensors Lab</p>
     <h1 class="text-h1">Earth Sensors Lab</h1>
-    <p class="hero-deck text-body">An accessible Earth-to-space observatory where students and communities learn to observe the world through sensors, gardens, sound, touch, data, telescopes, and local knowledge.</p>
+    <p class="hero-deck text-body">An accessible Earth-to-space observatory where students design, build, calibrate, operate, question, and explain scientific instruments.</p>
     <div class="hero-actions" aria-label="Key resources">
       <a class="btn" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/EXECUTIVE_SUMMARY.md">Executive summary</a>
-      <a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PLAYBOOK.md">Open the playbook</a>
-      <a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab">View repository</a>
+      <a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PLAYBOOK.md">Playbook</a>
+      <a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab">Repository</a>
     </div>
   </div>
 </header>
@@ -28,8 +28,8 @@
   <div class="wrap">
     <ul>
       <li><a href="#overview">Overview</a></li>
-      <li><a href="#playbook">Playbook</a></li>
       <li><a href="#instruments">Instruments</a></li>
+      <li><a href="#visuals">Visuals</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#accessibility">Accessibility</a></li>
       <li><a href="#space">NASA / Space</a></li>
@@ -40,96 +40,84 @@
 </nav>
 
 <main id="main" class="wrap">
-
   <section class="status-strip" aria-label="Project status">
-    <p class="text-meta"><strong>Status:</strong> Research and design development · Prototypes concept-stage · Pilot partners sought · Earth-to-space instrument pathway in development</p>
+    <p class="text-meta"><strong>Status:</strong> research and design development · current instrument systems are proposed/pre-build unless otherwise marked · pilot partners sought</p>
   </section>
 
   <section id="overview" aria-labelledby="overview-h">
     <p class="section-kicker text-meta">Overview</p>
-    <h2 id="overview-h" class="text-h2">A community observatory built around access</h2>
+    <h2 id="overview-h" class="text-h2">The garden is the observatory</h2>
+    <p class="text-body section-intro">Earth Sensors Lab is a public-interest STEAM research initiative under Small Systems Lab. Mixed-ability student cohorts build instruments that observe soil, water, living systems, atmosphere, vibration, light, electromagnetic phenomena, and eventually the sky. Accessibility is part of the scientific architecture from the beginning.</p>
+
+    <figure class="hero-figure">
+      <img src="assets/visuals/visual-01-observatory.webp" loading="eager" alt="Cutaway concept of an accessible greenhouse observatory. Students, including wheelchair users, work at raised garden beds and reachable data stations. Underground probes monitor soil; rooftop solar panels and a wind turbine feed battery and control equipment; a weather mast, optical telescope, and radio dish extend observations from Earth into the sky.">
+      <figcaption><strong>Figure 1. Earth Sensors Lab Observatory — whole-system concept.</strong> Accessible greenhouse and garden observatory integrating environmental sensing, renewable power and storage, central data interpretation, and optical and radio sky observation. Conceptual; not a construction drawing. <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md#visual-01--earth-sensors-lab-observatory">Long description</a>.</figcaption>
+    </figure>
+
     <div class="grid-2 overview-grid">
-      <div>
-        <p class="text-body">Earth Sensors Lab is a public-interest research initiative under Small Systems Lab. It studies how learners observe environmental and planetary systems when scientific data can be seen, heard, touched, spoken, questioned, and connected to place.</p>
-        <p class="text-body">The lab begins with the immediate environment — soil, water, heat, air, sound, plants, weather, and energy — and extends that same observational logic upward to the atmosphere and sky. The goal is not simply to teach STEM tools. It is to widen who gets to observe, measure, interpret, build instruments, and explain the world.</p>
-      </div>
-      <article class="card focus-card">
-        <h3 class="text-h3">Earth → Atmosphere → Space</h3>
-        <p class="text-body">One learning system can connect garden sensors, environmental data, renewable energy, optical astronomy, radio observation, and multisensory interpretation. The instrument pathway is designed to grow with the learner and the site.</p>
-        <p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/instruments/INSTRUMENT-ROADMAP.md">Read the Earth-to-Space Instrument Roadmap</a></p>
-      </article>
+      <article class="card"><h3 class="text-h3">Build to learn</h3><p class="text-body">QUESTION → DESIGN → BUILD → CALIBRATE → DEPLOY → OBSERVE → RECORD → INTERROGATE → REPRESENT → SHARE → REDESIGN.</p></article>
+      <article class="card"><h3 class="text-h3">Earth → Atmosphere → Space</h3><p class="text-body">One observatory can connect garden sensing, seismic and environmental observation, renewable energy, optical astronomy, radio observation, and multimodal interpretation.</p><p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/instruments/INSTRUMENT-ROADMAP.md">Instrument roadmap</a></p></article>
     </div>
-  </section>
-
-  <hr class="divider">
-
-  <section id="playbook" aria-labelledby="playbook-h">
-    <p class="section-kicker text-meta">Playbook</p>
-    <h2 id="playbook-h" class="text-h2">How the lab works</h2>
-    <p class="text-body section-intro">The playbook translates the research vision into a repeatable lab model: observe first, introduce instruments second, make data available in more than one sensory form, document uncertainty, and return interpretation to the learner and community.</p>
-    <div class="grid-2">
-      <article class="card">
-        <h3 class="text-h3">Observe before measuring</h3>
-        <p class="text-body">Learners begin with human observation and questions before introducing a sensor. Measurement should deepen attention, not replace it.</p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Multiple ways to know</h3>
-        <p class="text-body">Charts are only one representation. Data may also become sound, tactile form, spoken description, physical movement, or collaborative interpretation.</p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Build the observatory</h3>
-        <p class="text-body">Students learn the system by assembling it: sensors, power, housings, calibration, data pathways, accessibility layers, and field documentation.</p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Keep humans in judgment</h3>
-        <p class="text-body">Automation can help flag patterns or explain readings, but evidence, uncertainty, context, and scientific claims remain visible and reviewable.</p>
-      </article>
-    </div>
-    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PLAYBOOK.md">Read the full Earth Sensors Lab Playbook</a></p>
   </section>
 
   <hr class="divider">
 
   <section id="instruments" aria-labelledby="instruments-h">
     <p class="section-kicker text-meta">Instruments</p>
-    <h2 id="instruments-h" class="text-h2">An instrument ladder from the garden to the sky</h2>
-    <p class="text-body section-intro">The lab treats instruments as a progression rather than a shopping list. Each step introduces a new scale of observation while preserving low-cost, repairable, accessible, and teachable design.</p>
+    <h2 id="instruments-h" class="text-h2">Students build the measurement system</h2>
+    <p class="text-body section-intro">Each instrument dossier must include curriculum, research questions, BOM, build instructions, calibration, data and uncertainty rules, schematics, accessible representations, installation behavior, public workshop material, and a Schema Card.</p>
+
+    <figure class="hero-figure">
+      <img src="assets/visuals/visual-02-soil-station.webp" loading="lazy" alt="Engineering illustration of an accessible raised garden bed with separate soil-moisture, temperature, conductivity, and optional pH probes connected to a weather-resistant ESP32 data enclosure and reachable multimodal control panel.">
+      <figcaption><strong>Figure 2. Soil Sensing Station — student-built instrument concept.</strong> Raised accessible bed, differentiated soil probes, modular electronics enclosure, local data logging, and a multimodal reachable interface. <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md#visual-02--student-built-soil-sensing-station">Long description</a>.</figcaption>
+    </figure>
+
     <div class="instrument-ladder" role="list" aria-label="Earth-to-space instrument progression">
-      <article class="instrument-step" role="listitem"><span class="step-number">01</span><h3 class="text-h3">Garden sensing</h3><p class="text-body">Soil moisture, temperature, humidity, light, water, air, and plant observation.</p></article>
-      <article class="instrument-step" role="listitem"><span class="step-number">02</span><h3 class="text-h3">Environmental station</h3><p class="text-body">Weather, sound, air quality, energy, field logging, and local microclimate patterns.</p></article>
-      <article class="instrument-step" role="listitem"><span class="step-number">03</span><h3 class="text-h3">Optical sky observation</h3><p class="text-body">Human-visible sky observation, telescope practice, imaging, time, direction, and celestial movement.</p></article>
-      <article class="instrument-step" role="listitem"><span class="step-number">04</span><h3 class="text-h3">Radio observation</h3><p class="text-body">Radio astronomy concepts, antennas, signal, interference, spectra, and forms of observation beyond sight.</p></article>
+      <article class="instrument-step" role="listitem"><span class="step-number">01</span><h3 class="text-h3">Ground + living systems</h3><p class="text-body">Soil, water, plant, biodiversity, vibration and acoustic observation.</p></article>
+      <article class="instrument-step" role="listitem"><span class="step-number">02</span><h3 class="text-h3">Atmosphere + energy</h3><p class="text-body">Weather, air quality, light/UV, microclimate, solar/wind generation and storage telemetry.</p></article>
+      <article class="instrument-step" role="listitem"><span class="step-number">03</span><h3 class="text-h3">Electromagnetic Earth</h3><p class="text-body">Magnetometry, spectroscopy and the relationship between local signals and larger Earth systems.</p></article>
+      <article class="instrument-step" role="listitem"><span class="step-number">04</span><h3 class="text-h3">Sky + space</h3><p class="text-body">Optical observing, radio astronomy, solar/Jovian signals, and advanced cosmic-particle detection.</p></article>
     </div>
-    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/instruments/INSTRUMENT-ROADMAP.md">Instrument Roadmap</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/instruments/INSTRUMENT-STANDARD.md">Instrument Standard</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/schemas/INSTRUMENT-SCHEMA-CARD.md">Instrument Schema Card</a></p>
+    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/instruments/INSTRUMENT-STANDARD.md">Instrument Standard</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/schemas/INSTRUMENT-SCHEMA-CARD.md">Schema Card template</a></p>
+  </section>
+
+  <hr class="divider">
+
+  <section id="visuals" aria-labelledby="visuals-h">
+    <p class="section-kicker text-meta">Engineering visual record</p>
+    <h2 id="visuals-h" class="text-h2">From concept to build documentation</h2>
+    <p class="text-body section-intro">Generated visuals are labeled by status and never replace the written technical authority. Dense figures have concise alt text here and full long descriptions in the visual inventory.</p>
+
+    <div class="figure-grid">
+      <figure class="technical-figure">
+        <img src="assets/visuals/visual-03-soil-system-architecture.webp" loading="lazy" alt="Block diagram of the soil station from four soil probes through signal-conditioning and an ESP32 to local microSD storage, an accessible output device, optional Wi-Fi, and protected low-voltage power.">
+        <figcaption><strong>Figure 3. Soil Sensing Station — conceptual system architecture.</strong> Phenomenon → sensor → interface → controller → local storage/access → optional network. The generated image contains a documented moisture-channel error; the selected SEN0193 is analog. <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md#visual-03--soil-sensing-station-system-architecture">Correction and long description</a>.</figcaption>
+      </figure>
+
+      <figure class="technical-figure">
+        <img src="assets/visuals/visual-04-soil-exploded-assembly.webp" loading="lazy" alt="Exploded-view illustration of the soil station enclosure, internal replaceable electronics, four labeled sensor connectors and probes, accessible control panel, mounting bracket, and open–inspect–disconnect–replace–reconnect–test maintenance sequence.">
+        <figcaption><strong>Figure 4. Soil Sensing Station — exploded physical assembly.</strong> Modular enclosure, replaceable electronics, differentiated connections, reachable controls and repair workflow. <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md#visual-04--soil-sensing-station-exploded-assembly">Long description and illustration note</a>.</figcaption>
+      </figure>
+
+      <figure class="technical-figure figure-wide">
+        <img src="assets/visuals/visual-05-soil-wiring-signal-map.webp" loading="lazy" alt="Wiring and signal map showing a SEN0193 analog moisture probe feeding ADS1115 channel A0, a DS18B20 temperature probe using 1-Wire with a 4.7-kilohm pull-up, an ESP32 Feather V2, microSD storage, accessible local controls and audio, optional Wi-Fi, and protected low-voltage DC power.">
+        <figcaption><strong>Figure 5. Core Soil Sensing Station v1.0 — wiring and signal map.</strong> Proposed/pre-build architecture tied to the current BOM; not yet bench validated. <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/hardware/soil-sensing-station-wiring-v1.md">Authoritative text wiring map</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md#visual-05--core-soil-sensing-station-v10-wiring-and-signal-map">Long description</a>.</figcaption>
+      </figure>
+    </div>
   </section>
 
   <hr class="divider">
 
   <section id="research" aria-labelledby="research-h">
     <p class="section-kicker text-meta">Research</p>
-    <h2 id="research-h" class="text-h2">Accessible STEAM as a research environment</h2>
+    <h2 id="research-h" class="text-h2">Measurement itself becomes an object of inquiry</h2>
     <div class="grid-2">
-      <article class="card">
-        <h3 class="text-h3">Research agenda</h3>
-        <p class="text-body">Questions about observation, participation, scientific interpretation, accessibility, environmental sensing, and community knowledge.</p>
-        <p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/RESEARCH_AGENDA.md">Open research agenda</a></p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Research synthesis</h3>
-        <p class="text-body">A synthesis of STEAM, environmental sensing, Earth/space observation, accessibility, and instrument-based learning.</p>
-        <p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/research/STEAM_SENSOR_RESEARCH_SYNTHESIS.md">Open research synthesis</a></p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Curriculum</h3>
-        <p class="text-body">Seven modules move from observation and sensors to data, community observatories, AI boundaries, and observing space.</p>
-        <p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/curriculum/full-curriculum-guide.md">Open curriculum guide</a></p>
-      </article>
-      <article class="card">
-        <h3 class="text-h3">Study methods</h3>
-        <p class="text-body">Research questions, study protocols, pilot evaluation, findings templates, and explicit definitions of what counts as data.</p>
-        <p class="text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/tree/main/research">Browse research files</a></p>
-      </article>
+      <article class="card"><h3 class="text-h3">Instrument literacy</h3><p class="text-body">What changes when students build, calibrate and repair an instrument rather than simply consume its readings?</p></article>
+      <article class="card"><h3 class="text-h3">Accessible scientific reasoning</h3><p class="text-body">How do visual, sonic, tactile, haptic and spoken representations affect pattern recognition, collaboration and interpretation?</p></article>
+      <article class="card"><h3 class="text-h3">Evidence + uncertainty</h3><p class="text-body">How can low-cost instrumentation teach calibration, quality assurance, provenance, limitations and responsible scientific claims?</p></article>
+      <article class="card"><h3 class="text-h3">Networked observatories</h3><p class="text-body">How can interoperable school/community observatories compare measurements across sites while preserving context and local agency?</p></article>
     </div>
+    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/RESEARCH_AGENDA.md">Research agenda</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/research/STEAM_SENSOR_RESEARCH_SYNTHESIS.md">STEAM sensor research synthesis</a></p>
   </section>
 
   <hr class="divider">
@@ -137,30 +125,22 @@
   <section id="accessibility" aria-labelledby="accessibility-h">
     <p class="section-kicker text-meta">Accessibility</p>
     <h2 id="accessibility-h" class="text-h2">Accessibility is part of the instrument</h2>
-    <p class="text-body section-intro">If a measurement can only be read visually, the scientific system is incomplete. Earth Sensors Lab treats accessibility as a method for creating richer forms of observation, not as a layer added after the science is finished.</p>
+    <p class="text-body section-intro">A visual graph is not treated as the scientific record with accessibility added afterward. Where appropriate, the same observation should support numerical/text, visual, sonic, speech, tactile and haptic representations.</p>
     <div class="grid-2">
-      <article class="card"><h3 class="text-h3">See</h3><p class="text-body">High-contrast charts, legible interfaces, scalable text, visual patterning, and clear spatial relationships.</p></article>
-      <article class="card"><h3 class="text-h3">Hear</h3><p class="text-body">Sonification, spoken readings, audio description, captions, and transcripts.</p></article>
-      <article class="card"><h3 class="text-h3">Touch</h3><p class="text-body">Tactile diagrams, physical models, manipulable components, and nonvisual representations of change.</p></article>
-      <article class="card"><h3 class="text-h3">Navigate</h3><p class="text-body">Keyboard access, screen-reader-ready structure, predictable information architecture, and low-bandwidth/offline options.</p></article>
+      <article class="card"><h3 class="text-h3">Physical access</h3><p class="text-body">Reachable controls, wheelchair circulation, modular work surfaces, low-force/tactile controls and repair access.</p></article>
+      <article class="card"><h3 class="text-h3">Information access</h3><p class="text-body">Screen-readable structure, tactile/Braille identifiers, high contrast, sonification, audio description, captions and transcripts.</p></article>
     </div>
-    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/ACCESSIBILITY.md">Accessibility baseline</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/tree/main/accessibility">Accessibility research files</a></p>
+    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/ACCESSIBILITY.md">Accessibility baseline</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md">Visual accessibility inventory</a></p>
   </section>
 
   <hr class="divider">
 
   <section id="space" aria-labelledby="space-h">
     <p class="section-kicker text-meta">NASA / Space</p>
-    <h2 id="space-h" class="text-h2">A credible pathway from community science to space science</h2>
+    <h2 id="space-h" class="text-h2">A credible pathway from Earth observation to space science</h2>
     <div class="space-panel">
-      <div>
-        <p class="text-body">The space-facing work does not begin by pretending Earth Sensors Lab is already a NASA program. It begins with a readiness framework: clear learning outcomes, documented instrument standards, accessible data practices, curriculum, research methods, partnership language, and an Earth-to-space progression that can support future institutional collaboration.</p>
-        <p class="text-body">That creates a concrete basis for conversations with science educators, universities, observatories, museums, community organizations, and eventually NASA-facing education and citizen-science programs.</p>
-      </div>
-      <div class="space-links">
-        <a class="btn" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/NASA-READINESS.md">NASA Readiness Framework</a>
-        <a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/NASA-PARTNERSHIP-BRIEF.md">NASA Partnership Brief</a>
-      </div>
+      <div><p class="text-body">Earth Sensors Lab does not claim NASA endorsement. The readiness work maps the observatory to authentic Earth science, heliophysics, astronomy, instrumentation, STEM-engagement and accessibility precedents while keeping research claims, partnerships and validation status explicit.</p></div>
+      <div class="space-links"><a class="btn" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/NASA-READINESS.md">NASA Readiness</a><a class="btn btn-secondary" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/NASA-PARTNERSHIP-BRIEF.md">Partnership Brief</a></div>
     </div>
   </section>
 
@@ -168,46 +148,32 @@
 
   <section id="partnerships" aria-labelledby="partnerships-h">
     <p class="section-kicker text-meta">Partnerships</p>
-    <h2 id="partnerships-h" class="text-h2">Schools and institutions participate as research partners</h2>
-    <p class="text-body section-intro">Earth Sensors Lab is designed for collaboration rather than product delivery. A pilot site can become a place where students, teachers, researchers, accessibility advisors, technologists, and community members jointly test how an observatory should work.</p>
-    <div class="grid-2">
-      <article class="card"><h3 class="text-h3">Schools</h3><p class="text-body">Curriculum pilots, school gardens, student-built observatories, teacher collaboration, and longitudinal observation.</p></article>
-      <article class="card"><h3 class="text-h3">Universities + labs</h3><p class="text-body">Research design, instrument mentorship, evaluation, accessibility research, and technical exchange.</p></article>
-      <article class="card"><h3 class="text-h3">Museums + observatories</h3><p class="text-body">Public science interpretation, telescope access, informal learning, exhibitions, and community observing events.</p></article>
-      <article class="card"><h3 class="text-h3">Community partners</h3><p class="text-body">Local environmental questions, place-based knowledge, stewardship, public data, and community ownership.</p></article>
-    </div>
-    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PARTNERSHIP_MODEL.md">Partnership Model</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/issues">Start a conversation on GitHub</a></p>
+    <h2 id="partnerships-h" class="text-h2">A shared research and learning infrastructure</h2>
+    <p class="text-body section-intro">Schools, universities, engineering labs, accessibility researchers, museums, observatories, community gardens and science organizations can contribute different forms of expertise without changing the core student-centered research model.</p>
+    <p class="resource-link text-meta"><a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PARTNERSHIP_MODEL.md">Partnership model</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab/issues">Start a conversation</a></p>
   </section>
 
   <hr class="divider">
 
   <section id="documentation" aria-labelledby="documentation-h">
     <p class="section-kicker text-meta">Documentation</p>
-    <h2 id="documentation-h" class="text-h2">Enter the full research repository</h2>
-    <p class="text-body section-intro">The public site is the front door. The repository remains the working research archive, with methods, curriculum, hardware, software, accessibility, schemas, partnership materials, and development history kept visible.</p>
+    <h2 id="documentation-h" class="text-h2">Enter the working research repository</h2>
     <div class="docs-grid">
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/EXECUTIVE_SUMMARY.md"><strong>Executive Summary</strong><span>Fastest project overview</span></a>
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PLAYBOOK.md"><strong>Playbook</strong><span>How to run the lab</span></a>
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/INDEX.md"><strong>Full Index</strong><span>Repository navigation</span></a>
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/SCHEMA_CARD.md"><strong>Schema Card</strong><span>System definition and boundaries</span></a>
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/ROADMAP.md"><strong>Roadmap</strong><span>What happens next</span></a>
-      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab"><strong>GitHub Repository</strong><span>All files and development history</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/EXECUTIVE_SUMMARY.md"><strong>Executive Summary</strong><span>Who, what, where and how</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/PLAYBOOK.md"><strong>Playbook</strong><span>Program architecture</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/hardware/soil-sensing-station-bom-v1.md"><strong>Soil BOM v1.0</strong><span>Current proposed components</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/hardware/soil-sensing-station-wiring-v1.md"><strong>Soil Wiring v1.0</strong><span>Authoritative text signal map</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/docs/VISUALS.md"><strong>Visual Inventory</strong><span>Alt text, captions and long descriptions</span></a>
+      <a class="doc-link" href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/INDEX.md"><strong>Full Index</strong><span>All research files</span></a>
     </div>
   </section>
-
 </main>
 
 <footer class="site-footer">
   <div class="wrap footer-grid">
-    <div>
-      <p class="text-body"><strong>Earth Sensors Lab</strong> is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>, a public-interest studio for care, rules, memory, geometry, accessibility, and civic knowledge.</p>
-    </div>
-    <div>
-      <p class="text-meta"><a href="#top">Back to top</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab">GitHub</a></p>
-      <p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. Written content licensed <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/LICENSE.md">CC BY 4.0</a>; source code license TBD.</p>
-    </div>
+    <p class="text-body"><strong>Earth Sensors Lab</strong> is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>.</p>
+    <div><p class="text-meta"><a href="#top">Back to top</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab">GitHub</a></p><p class="text-meta">Written content licensed <a href="https://github.com/ukadike/Earth-Sensors-Lab/blob/main/LICENSE.md">CC BY 4.0</a>; source code license TBD.</p></div>
   </div>
 </footer>
-
 </body>
 </html>
