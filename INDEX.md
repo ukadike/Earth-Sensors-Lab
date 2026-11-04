@@ -7,6 +7,7 @@ versus planned.
 ## Site
 
 - [index.html](index.html) — homepage (GitHub Pages entry point).
+- [sample-classroom.html](sample-classroom.html) — student-facing sample classroom and proposed six-week ESL pilot experience.
 
 ## Root documentation
 
