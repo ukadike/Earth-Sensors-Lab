@@ -4,117 +4,115 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sample Classroom | Earth Sensors Lab</title>
-<meta name="description" content="Step into a sample Earth Sensors Lab classroom: ask a garden question, plan an observation, compare evidence, and share what the data can and cannot tell us.">
+<meta name="description" content="Explore the Earth Sensors Lab Observatory as a sample classroom where students connect living systems, sensors, open hardware, energy, and accessible data.">
 <link rel="stylesheet" href="variables.css">
 <link rel="stylesheet" href="site.css">
+<style>
+  .classroom-figure{margin:var(--space-xl) 0}
+  .classroom-figure img{display:block;width:100%;height:auto;border:var(--border-thin)}
+  .station-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:var(--space-md);margin:var(--space-lg) 0}
+  .station{border:var(--border-thin);padding:var(--space-lg);background:var(--color-white)}
+  .station h3{margin-top:0}
+  .route{font-family:var(--font-mono);background:#1a1a1a;color:#f9f9f7;padding:var(--space-lg);line-height:1.7;overflow-wrap:anywhere}
+  .weeks{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:var(--space-md);margin-top:var(--space-lg)}
+  .week{border-top:var(--border-thick);padding:var(--space-md) 0}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
 <header class="header" id="top">
   <div class="wrap">
-    <p class="text-meta"><a href="index.html">Earth Sensors Lab</a> · Sample learning experience</p>
-    <h1 class="text-h1">Welcome to the Sample Classroom</h1>
-    <p class="hero-deck text-body">What can we learn by paying close attention to one small place? In this sample, students investigate how soil moisture changes across a garden bed, then decide what their observations can—and cannot—show.</p>
+    <p class="text-meta"><a href="index.html">Earth Sensors Lab</a> · A sample classroom</p>
+    <h1 class="text-h1">The observatory is our classroom</h1>
+    <p class="hero-deck text-body">Welcome to a living learning observatory: people, plants, instruments, energy, and data in one shared system. Students choose a question, follow the connections, and make something that helps others observe and understand.</p>
     <div class="hero-actions">
-      <a class="btn" href="#try-it">Start the classroom activity</a>
-      <a class="btn btn-secondary" href="#six-weeks">See the six-week path</a>
-      <a class="btn btn-secondary" href="index.html">Earth Sensors Lab home</a>
+      <a class="btn" href="#walkthrough">Enter the observatory</a>
+      <a class="btn btn-secondary" href="#challenge">Try the classroom challenge</a>
+      <a class="btn btn-secondary" href="#six-weeks">See the six-week studio</a>
     </div>
   </div>
 </header>
 <nav class="site-nav" aria-label="Primary"><div class="wrap"><ul>
-  <li><a href="#welcome">Welcome</a></li><li><a href="#try-it">Try it</a></li><li><a href="#make-meaning">Make meaning</a></li><li><a href="#six-weeks">Six weeks</a></li><li><a href="#access">Ways to participate</a></li>
+  <li><a href="#walkthrough">Observatory</a></li><li><a href="#stations">Learning stations</a></li><li><a href="#challenge">Challenge</a></li><li><a href="#six-weeks">Six-week studio</a></li><li><a href="#access">Access + sharing</a></li>
 </ul></div></nav>
 <main id="main" class="wrap">
 <section class="status-strip">
-  <p class="text-meta"><strong>Sample concept:</strong> This page shows one possible student experience for an Earth Sensors Lab six-week project. A school partner, cohort, site, schedule, and resources are not yet confirmed.</p>
+  <p class="text-meta"><strong>Sample experience:</strong> A proposed six-week collaboration for ITP/IMA and high-school students. This page illustrates a possible learning environment; partners, cohort, location, schedule, and resources are not yet confirmed.</p>
 </section>
 
-<section id="welcome">
-  <p class="section-kicker text-meta">Today’s question</p>
-  <h2 class="text-h2">Where does garden soil dry first?</h2>
-  <p class="text-body section-intro">We are not trying to prove that one spot is always dry. We are learning how to ask a useful question, make careful observations, and compare more than one kind of evidence.</p>
-  <div class="grid-2">
-    <article class="card">
-      <h3 class="text-h3">By the end, you can</h3>
-      <ul>
-        <li>describe one pattern you observed;</li>
-        <li>compare a sensor reading with a human observation;</li>
-        <li>name a limit or uncertainty in your evidence; and</li>
-        <li>share your finding in a format that works for you.</li>
-      </ul>
-    </article>
-    <article class="card">
-      <h3 class="text-h3">You will need</h3>
-      <p>A small outdoor or indoor growing area, a way to mark two or three observation spots, a notebook or recording method, and—if available—a soil-moisture sensor. The activity can be completed with careful observation even when a sensor is unavailable.</p>
-    </article>
+<section id="walkthrough">
+  <p class="section-kicker text-meta">Look around</p>
+  <h2 class="text-h2">One observatory. Many connected investigations.</h2>
+  <p class="text-body section-intro">Start with what catches your attention. A plant, a sensor, a rain barrel, the solar panels, a weather station, or a telescope can become the beginning of a question. No single instrument tells the whole story.</p>
+  <figure class="classroom-figure">
+    <img src="assets/visuals/visual-01-observatory.webp" alt="Illustrated Earth Sensors Lab Observatory: students, including a wheelchair user, enter an accessible greenhouse surrounded by plant and environmental sensors. Solar panels and wind turbines power the site; rainwater supports irrigation; a weather station, radio telescope, and optical telescope extend observation beyond the garden.">
+    <figcaption><strong>Earth Sensors Lab Observatory.</strong> A proposed learning environment connecting people, plants, open-source instruments, renewable energy, and Earth-to-space observation. The illustration is a concept, not a built facility.</figcaption>
+  </figure>
+  <h3 class="text-h3">What can you trace?</h3>
+  <p>Follow one relationship through the observatory: sunlight to stored power; rainwater to soil and plant health; a sensor to a reading; a reading to a map, sound, or description; or a community question to a new instrument idea.</p>
+  <p class="route">NOTICE → ASK → TRACE A CONNECTION → MAKE OR MEASURE → REPRESENT → SHARE → REVISE</p>
+</section>
+
+<hr class="divider">
+<section id="stations">
+  <p class="section-kicker text-meta">Choose a starting point</p>
+  <h2 class="text-h2">Learning stations across the observatory</h2>
+  <p class="text-body section-intro">Small teams can start in different places, then bring their observations together. These are example directions, not preassigned tracks.</p>
+  <div class="station-grid">
+    <article class="station"><h3 class="text-h3">Plants + living systems</h3><p>What changes as a plant grows? Combine careful looking with plant-health or environmental sensing. Decide what a camera can show and what it cannot.</p></article>
+    <article class="station"><h3 class="text-h3">Weather + environment</h3><p>How do temperature, humidity, light, wind, or air quality vary around a site? Compare readings with place-based observations.</p></article>
+    <article class="station"><h3 class="text-h3">Energy + water</h3><p>Where does energy come from, how is it stored, and what does it support? Trace rainwater through collection, storage, and irrigation.</p></article>
+    <article class="station"><h3 class="text-h3">Sound + motion</h3><p>What can vibration or sound reveal about a place? Explore a signal and make a text, visual, tactile, or sonic way to interpret it.</p></article>
+    <article class="station"><h3 class="text-h3">Sky + space</h3><p>How do optical and radio instruments observe in different ways? Connect a local observation to a question about Earth and the wider universe.</p></article>
+    <article class="station"><h3 class="text-h3">Open tools + data</h3><p>How can students inspect, change, document, and explain a tool? Build an open-source prototype or a clear interface for its evidence.</p></article>
   </div>
 </section>
 
 <hr class="divider">
-<section id="try-it">
-  <p class="section-kicker text-meta">Classroom activity · 20–30 minutes</p>
-  <h2 class="text-h2">Plan one fair observation</h2>
+<section id="challenge">
+  <p class="section-kicker text-meta">Try a sample classroom prompt</p>
+  <h2 class="text-h2">How could one part of this observatory better support a healthy planet?</h2>
+  <p class="text-body section-intro">Choose a connection in the illustration. Find out what it does, what information it produces, who can use that information, and what you would change or add.</p>
   <ol>
-    <li><strong>Choose spots.</strong> Mark two or three places in the same growing area. Notice whether they get different amounts of sun, shade, or water.</li>
-    <li><strong>Make a prediction.</strong> Which spot do you think will feel or measure driest? What makes you think so?</li>
-    <li><strong>Observe in a consistent way.</strong> At each spot, record the time and either a sensor reading or a simple description such as “surface looks dark,” “soil feels damp,” or “soil feels crumbly.” Follow the same method at each spot.</li>
-    <li><strong>Compare.</strong> Look for a difference across spots. If you can, repeat the observations later under similar conditions.</li>
-    <li><strong>Write one careful claim.</strong> Use: “In our observations, ___ was ___ than ___ at ___.” Add what evidence supports it.</li>
+    <li><strong>Notice:</strong> Pick one element or relationship that interests you. You can begin by looking, listening, reading the labels, or talking with a partner.</li>
+    <li><strong>Ask:</strong> Write, say, draw, sign, or record a question about it. What do you want to understand or improve?</li>
+    <li><strong>Investigate:</strong> Identify what you would observe or measure. Decide what tools, materials, and people could help. Make a small prototype, test, or representation.</li>
+    <li><strong>Explain:</strong> Share what you found, what remains uncertain, and how someone else could take part in your investigation.</li>
   </ol>
-  <p class="note"><strong>Safety and care:</strong> Follow the site’s rules, wash hands after handling soil, and do not taste or touch unknown plants or materials. Ask before moving anything in a shared garden.</p>
-</section>
-
-<hr class="divider">
-<section id="make-meaning">
-  <p class="section-kicker text-meta">Show what you noticed</p>
-  <h2 class="text-h2">Choose a way to represent the evidence</h2>
-  <p class="text-body section-intro">A graph is one option, not the only option. Keep the same labels and values available in text so that everyone can inspect the evidence.</p>
-  <div class="grid-2">
-    <article class="card"><h3 class="text-h3">Table or short description</h3><p>List each spot, time, observation method, and result. Add a sentence that names the pattern without claiming more than the observations support.</p></article>
-    <article class="card"><h3 class="text-h3">Map or drawing</h3><p>Sketch the bed and mark the observation spots. Include a text key that explains every symbol, color, or label.</p></article>
-    <article class="card"><h3 class="text-h3">Graph or sound</h3><p>Compare readings with clear axes and units. If using sound, provide a written description and the underlying values too.</p></article>
-    <article class="card"><h3 class="text-h3">Talk, sign, or demonstrate</h3><p>Explain the pattern aloud, in sign, with a partner, or by pointing to a tactile or physical model. A partner can record your words if you choose.</p></article>
-  </div>
-  <h3 class="text-h3">Our sample Schema Card</h3>
+  <h3 class="text-h3">A sample team record</h3>
   <dl>
-    <dt><strong>Question</strong></dt><dd>Where does this garden bed’s soil seem driest during our observation?</dd>
-    <dt><strong>Place and time</strong></dt><dd>Name the spots and record when each observation was made.</dd>
-    <dt><strong>Method</strong></dt><dd>Describe the sensor, if used, and the human observation method.</dd>
-    <dt><strong>Evidence</strong></dt><dd>Keep the readings or notes with units, labels, and observation times.</dd>
-    <dt><strong>What we noticed</strong></dt><dd>State the pattern seen in this set of observations.</dd>
-    <dt><strong>What we do not know yet</strong></dt><dd>For example: whether the pattern holds on another day, or how recent watering affected it.</dd>
+    <dt><strong>Our question</strong></dt><dd>What are we trying to find out or make easier to observe?</dd>
+    <dt><strong>Our connection</strong></dt><dd>Which people, plants, instruments, energy sources, or data points are involved?</dd>
+    <dt><strong>Our method</strong></dt><dd>What did we build, observe, measure, compare, or represent?</dd>
+    <dt><strong>Our evidence</strong></dt><dd>What did we notice? Include units, labels, sources, and conditions when relevant.</dd>
+    <dt><strong>Our access choices</strong></dt><dd>How can someone encounter and contribute to this work in more than one way?</dd>
+    <dt><strong>Our next question</strong></dt><dd>What do we still need to learn?</dd>
   </dl>
 </section>
 
 <hr class="divider">
 <section id="six-weeks">
-  <p class="section-kicker text-meta">Proposed sequence</p>
-  <h2 class="text-h2">A six-week classroom journey</h2>
-  <div class="instrument-ladder">
-    <article class="instrument-step"><span class="step-number">01</span><h3>Notice + ask</h3><p>Explore a place, share questions, and choose an observation path.</p></article>
-    <article class="instrument-step"><span class="step-number">02</span><h3>Plan + learn tools</h3><p>Compare observation methods and make a simple measurement plan.</p></article>
-    <article class="instrument-step"><span class="step-number">03</span><h3>Build + test</h3><p>Try a sensor or non-sensor method; check labels, consistency, and access.</p></article>
-    <article class="instrument-step"><span class="step-number">04</span><h3>Collect + record</h3><p>Gather observations, note conditions, and keep the evidence organized.</p></article>
-    <article class="instrument-step"><span class="step-number">05</span><h3>Compare + revise</h3><p>Look for patterns, discuss uncertainty, and improve the representation.</p></article>
-    <article class="instrument-step"><span class="step-number">06</span><h3>Share + reflect</h3><p>Present a finding and name the next question the evidence raises.</p></article>
+  <p class="section-kicker text-meta">Proposed ITP/IMA + high-school collaboration</p>
+  <h2 class="text-h2">A six-week studio, built around a shared question</h2>
+  <p class="text-body section-intro">Students bring different experience and work together as co-investigators. Each week connects inquiry, creative technology, accessibility, and making.</p>
+  <div class="weeks">
+    <article class="week"><span class="text-meta">WEEK 01</span><h3 class="text-h3">Enter + notice</h3><p>Explore the observatory concept. Share interests, access needs, and questions worth investigating.</p></article>
+    <article class="week"><span class="text-meta">WEEK 02</span><h3 class="text-h3">Choose + map</h3><p>Select a system connection. Map the people, materials, signals, data, and unanswered questions.</p></article>
+    <article class="week"><span class="text-meta">WEEK 03</span><h3 class="text-h3">Prototype</h3><p>Make or adapt an instrument, interface, model, or observation method. Test it with peers.</p></article>
+    <article class="week"><span class="text-meta">WEEK 04</span><h3 class="text-h3">Observe + document</h3><p>Collect or examine evidence. Record how it was produced and what might affect it.</p></article>
+    <article class="week"><span class="text-meta">WEEK 05</span><h3 class="text-h3">Interpret + redesign</h3><p>Represent what you learned in accessible forms. Revise after feedback from others.</p></article>
+    <article class="week"><span class="text-meta">WEEK 06</span><h3 class="text-h3">Share + continue</h3><p>Present a working prototype or investigation and name the next question for the observatory.</p></article>
   </div>
-  <p class="note">The sequence is a proposal for discussion. Lesson length, materials, location, and language supports would be adapted with participating students and educators.</p>
 </section>
 
 <hr class="divider">
 <section id="access">
-  <p class="section-kicker text-meta">Ways to participate</p>
-  <h2 class="text-h2">There is more than one way into the investigation</h2>
-  <ul>
-    <li>Speak, write, draw, point, sign, use a device, work with a partner, or observe quietly.</li>
-    <li>Use keyboard-accessible digital materials; no camera or live video is required for this sample activity.</li>
-    <li>Offer written descriptions and data alongside maps, graphs, images, or sound.</li>
-    <li>Allow students to pass on a mode or task and choose another meaningful contribution.</li>
-  </ul>
-  <p>These choices build on Earth Sensors Lab’s accessibility-first approach and the <a href="ACCESSIBILITY.md">accessibility baseline</a>. The classroom model is informed by Accessible by Design work, including <a href="https://ukadike.github.io/accessible-by-design-prototyping/" target="_blank" rel="noopener noreferrer">Accessibility Audit Lab</a>.</p>
+  <p class="section-kicker text-meta">Access is part of the system</p>
+  <h2 class="text-h2">Different ways to notice, make, and contribute</h2>
+  <p>Students can speak, write, draw, sign, use assistive technology, work with a partner, or observe quietly before joining. Digital materials should work with keyboard and screen-reader navigation. Maps, graphs, images, and sound should have clear text equivalents. Students can choose meaningful roles without being required to use a camera or perform in front of the group.</p>
+  <p>These principles connect the sample to Earth Sensors Lab’s <a href="ACCESSIBILITY.md">accessibility baseline</a> and Kemi’s Accessible by Design practice. The project content is a proposal for discussion, not a confirmed course or partnership.</p>
 </section>
 </main>
-<footer class="site-footer"><div class="wrap footer-grid"><p><strong>Earth Sensors Lab</strong> · Sample classroom</p><p class="text-meta"><a href="index.html">Back to Earth Sensors Lab</a> · <a href="#top">Back to top</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab">GitHub</a></p></div></footer>
+<footer class="site-footer"><div class="wrap footer-grid"><p><strong>Earth Sensors Lab</strong> · The observatory is our classroom</p><p class="text-meta"><a href="index.html">Back to Earth Sensors Lab</a> · <a href="#top">Back to top</a> · <a href="https://github.com/ukadike/Earth-Sensors-Lab">GitHub</a></p></div></footer>
 </body>
 </html>
