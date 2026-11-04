@@ -102,6 +102,7 @@ versus planned.
 - [pentaville-case-note.md](pilots/pentaville-case-note.md)
 - [nyu-partnership-note.md](pilots/nyu-partnership-note.md) — `AWAITING
   FRAGMENT`, no confirmed partnership yet
+- [ITP/IMA + high-school six-week pilot discussion](pilots/itp-ima-high-school-six-week-pilot-discussion.md) — proposed discussion brief and deck; no partnership confirmed
 - [pilot-as-research-site.md](pilots/pilot-as-research-site.md)
 - [school-pilot-template.md](pilots/school-pilot-template.md)
 - [museum-library-pilot-template.md](pilots/museum-library-pilot-template.md)
