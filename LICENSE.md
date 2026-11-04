@@ -23,6 +23,16 @@ This applies to, at minimum:
   `/pilots/`, `/docs/` Markdown content
 - `SSL-METHOD.md`, `INDEX.md`, `docs/REPO_AUDIT.md`
 
+
+## Original visual concepts — CC BY 4.0
+
+Original Earth Sensors Lab concept diagrams and visual materials in
+`/assets/visuals/` are licensed under CC BY 4.0, except for any third-party
+material specifically credited otherwise. Attribute them to Adekemi (Kemi)
+Sijuwade Ukadike / Earth Sensors Lab, link to the license, and indicate
+changes. This includes the observatory concept diagram and the original
+student-facing classroom content.
+
 ## Source code — license TBD
 
 No functioning source code exists in this repository yet — hardware and
